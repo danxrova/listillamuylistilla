@@ -10,7 +10,7 @@ class M3UParser:
         # Remove common prefixes/suffixes and normalize for matching
         name = name.lower()
         name = re.sub(r'\[.*?\]|\(.*?\)', '', name) # Remove content in brackets/parens
-        name = re.sub(r'\b(hd|sd|fhd|4k|uhd|hevc|h264|h265|tdt|pago)\b', '', name)
+        name = re.sub(r'\b(hd|sd|fhd|hevc|h264|h265|tdt|pago)\b', '', name)
         name = re.sub(r'[^a-z0-9]', '', name) # Keep only alphanumeric
         return name.strip()
 
