@@ -40,7 +40,7 @@ jobs:
       - name: Run M3U Manager
         env:
           INPUT_DIR: 'data/inputs'
-          OUTPUT_M3U: 'public/output.m3u'
+          OUTPUT_M3U: 'public/lista.m3u'
           STATE_FILE: 'data/state.json'
           REPORT_FILE: 'data/report.md'
           TIMEOUT: 10
