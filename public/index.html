@@ -132,23 +132,16 @@ p{
 
 <div class="container">
   <img class="logo" src="ListillaSecretilla (1).svg" alt="Logo">
-  <h1>Listilla Muy Listilla</h1>
+  <h1>ListillaMuyListilla</h1>
   <p>Una lista m3u para ver la tv de españa y joder a tebas.</p>
 
   <div style="display:flex; justify-content:center; gap:15px;">
-    <a class="btn" href="/listilla.m3u">Abrir lista</a>
-    <a class="btn" href="guia.html">Ver guía</a>
+    <a class="btn" href="/lista.m3u">Abrir lista</a>
   </div>
-
-  <div class="guide">
-    <div id="epg" class="loading">Cargando programas en directo...</div>
-  </div>
-</div>
 
 <script>
-
-const EPG_URL = "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml";
-const M3U_URL = "/listilla.m3u";
+  
+const M3U_URL = "/lista.m3u";
 
 function parseFecha(xmltvDate){
   return new Date(
