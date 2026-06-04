@@ -9,7 +9,7 @@ class M3UParser:
     def clean_name(self, name):
         name = name.lower()
         name = re.sub(r'\[.*?\]|\(.*?\)', '', name)
-        name = re.sub(r'\b(hd|sd|fhd|4k|uhd|hevc|h264|h265|tdt|pago)\b', '', name)
+        name = re.sub(r'\b(hd|sd|fhd|hevc|h264|h265|tdt|pago)\b', '', name)
         name = re.sub(r'[^a-z0-9]', '', name)
         return name.strip()
 
@@ -17,10 +17,9 @@ class M3UParser:
         """Parse attributes from the #EXTM3U header line.
 
         Supported attributes:
-          max-conn="N"   -> int, max simultaneous connections for this source
+          max-conn="N"   -> int,   max simultaneous connections for this source
           wait-scan="N"  -> float, seconds to wait between requests to this source
-        
-        Returns a dict, e.g. {'max_conn': 2, 'wait_scan': 5} or {}.
+          no-check       -> bool,  skip evaluation and treat all URLs as valid
         """
         attrs = {}
         m = re.search(r'max-conn=["\']?(\d+)["\']?', line, re.IGNORECASE)
@@ -29,6 +28,8 @@ class M3UParser:
         m = re.search(r'wait-scan=["\']?([\d.]+)["\']?', line, re.IGNORECASE)
         if m:
             attrs['wait_scan'] = float(m.group(1))
+        if re.search(r'\bno-check\b', line, re.IGNORECASE):
+            attrs['no_check'] = True
         return attrs
 
     def parse_file(self, file_path):
@@ -55,7 +56,6 @@ class M3UParser:
             if line.startswith('#EXTINF:'):
                 if current_channel and current_channel['urls']:
                     channels.append(current_channel)
-                
                 match = re.search(r',(.+)$', line)
                 channel_name = match.group(1).strip() if match else "Unknown"
                 current_channel = {
@@ -104,38 +104,21 @@ class M3UParser:
                     if url not in entry['url_set']:
                         entry['url_set'].add(url)
                         entry['urls'].append({
-                            'url': url,
-                            'max_conn': source_attrs.get('max_conn', None),
-                            'wait_scan': source_attrs.get('wait_scan', None)
+                            'url':       url,
+                            'max_conn':  source_attrs.get('max_conn',  None),
+                            'wait_scan': source_attrs.get('wait_scan', None),
+                            'no_check':  source_attrs.get('no_check',  False)
                         })
 
         final_channels = []
         for clean_name, data in all_channels_by_name.items():
             final_channels.append({
-                'name': data['name'],
-                'inf': data['inf'],
-                'urls': [u['url'] for u in data['urls']],
+                'name':          data['name'],
+                'inf':           data['inf'],
+                'urls':          [u['url'] for u in data['urls']],
                 'url_max_conn':  {u['url']: u['max_conn']  for u in data['urls']},
-                'url_wait_scan': {u['url']: u['wait_scan'] for u in data['urls']}
+                'url_wait_scan': {u['url']: u['wait_scan'] for u in data['urls']},
+                'url_no_check':  {u['url']: u['no_check']  for u in data['urls']}
             })
 
         return final_channels
-
-if __name__ == "__main__":
-    import tempfile, json
-    with tempfile.TemporaryDirectory() as td:
-        with open(os.path.join(td, "list1.m3u"), 'w') as f:
-            f.write('#EXTM3U max-conn="2" wait-scan="5"\n')
-            f.write('#EXTINF:-1,La 1 HD\nhttp://stream1.es/stream.ts\n')
-        with open(os.path.join(td, "list2.m3u"), 'w') as f:
-            f.write("#EXTM3U\n")
-            f.write("#EXTINF:-1,La 1 (TDT)\nhttp://stream2.es/stream.ts\n")
-
-        parser = M3UParser(td)
-        channels = parser.parse_all()
-        for ch in channels:
-            print(f"Channel: {ch['name']}")
-            for url in ch['urls']:
-                mc = ch['url_max_conn'].get(url)
-                ws = ch['url_wait_scan'].get(url)
-                print(f"  {url}  max-conn={mc}  wait-scan={ws}")
