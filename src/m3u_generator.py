@@ -17,8 +17,8 @@ class M3UGenerator:
     def generate_fallback_report(self, channels, report_path):
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write("# IPTV Stream Status Report\n\n")
-            f.write("| Channel | Status | Best Stream URL | Latency | Candidates |\n")
-            f.write("| --- | --- | --- | --- | --- |\n")
+            f.write("| Canal | Estado | Mejor URL | Latencia | Candidatos | Límite conn. |\n")
+            f.write("| --- | --- | --- | --- | --- | --- |\n")
             
             for channel in channels:
                 best = channel.get('best_stream')
@@ -26,5 +26,10 @@ class M3UGenerator:
                 url = best['url'] if best else "N/A"
                 latency = f"{best['latency']:.3f}s" if best and best['available'] else "N/A"
                 candidates = len(channel['urls'])
+
+                # Show max-conn of the chosen stream (if any)
+                url_max_conn = channel.get('url_max_conn', {})
+                chosen_max_conn = url_max_conn.get(url) if best else None
+                conn_label = f"max-conn={chosen_max_conn}" if chosen_max_conn is not None else "sin límite"
                 
-                f.write(f"| {channel['name']} | {status} | {url} | {latency} | {candidates} |\n")
+                f.write(f"| {channel['name']} | {status} | {url} | {latency} | {candidates} | {conn_label} |\n")

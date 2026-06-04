@@ -14,9 +14,24 @@ class M3UParser:
         name = re.sub(r'[^a-z0-9]', '', name) # Keep only alphanumeric
         return name.strip()
 
+    def parse_extm3u_attrs(self, line):
+        """Parse attributes from the #EXTM3U header line.
+        
+        Supported attributes:
+          max-conn="N"  -> integer max simultaneous connections for this source
+        
+        Returns a dict, e.g. {'max_conn': 2} or {} if no attributes found.
+        """
+        attrs = {}
+        match = re.search(r'max-conn=["\']?(\d+)["\']?', line, re.IGNORECASE)
+        if match:
+            attrs['max_conn'] = int(match.group(1))
+        return attrs
+
     def parse_file(self, file_path):
         channels = []
         current_channel = None
+        source_attrs = {}  # Attributes parsed from #EXTM3U header
 
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
@@ -31,6 +46,7 @@ class M3UParser:
                 continue
 
             if line.startswith('#EXTM3U'):
+                source_attrs = self.parse_extm3u_attrs(line)
                 continue
 
             if line.startswith('#EXTINF:'):
@@ -43,7 +59,8 @@ class M3UParser:
                     'name': channel_name, 
                     'clean_name': self.clean_name(channel_name),
                     'inf': line, 
-                    'urls': []
+                    'urls': [],
+                    'source_attrs': source_attrs  # carry header attrs into every channel
                 }
             elif current_channel:
                 if line.startswith('http'):
@@ -69,16 +86,25 @@ class M3UParser:
                 clean_name = channel['clean_name']
                 if not clean_name:
                     continue
+                
+                source_attrs = channel.get('source_attrs', {})
                     
                 if clean_name not in all_channels_by_name:
                     all_channels_by_name[clean_name] = {
                         'name': channel['name'], # Use the first name encountered
                         'inf': channel['inf'],
-                        'urls': set(channel['urls'])
+                        'urls': [],       # list of dicts: {url, max_conn}
+                        'url_set': set()  # for dedup
                     }
-                else:
-                    # Merge URLs for the same channel
-                    all_channels_by_name[clean_name]['urls'].update(channel['urls'])
+                
+                entry = all_channels_by_name[clean_name]
+                for url in channel['urls']:
+                    if url not in entry['url_set']:
+                        entry['url_set'].add(url)
+                        entry['urls'].append({
+                            'url': url,
+                            'max_conn': source_attrs.get('max_conn', None)
+                        })
         
         # Convert back to list format expected by the rest of the pipeline
         final_channels = []
@@ -86,7 +112,10 @@ class M3UParser:
             final_channels.append({
                 'name': data['name'],
                 'inf': data['inf'],
-                'urls': list(data['urls'])
+                # Keep backward-compatible plain list of URL strings
+                'urls': [u['url'] for u in data['urls']],
+                # Extra: per-URL connection limit metadata
+                'url_max_conn': {u['url']: u['max_conn'] for u in data['urls']}
             })
             
         return final_channels
@@ -97,7 +126,7 @@ if __name__ == "__main__":
     os.makedirs(test_dir, exist_ok=True)
     
     with open(os.path.join(test_dir, "list1.m3u"), 'w') as f:
-        f.write("#EXTM3U\n#EXTINF:-1,La 1 HD\nhttp://stream1.es/stream.ts\n")
+        f.write('#EXTM3U max-conn="2"\n#EXTINF:-1,La 1 HD\nhttp://stream1.es/stream.ts\n')
     with open(os.path.join(test_dir, "list2.m3u"), 'w') as f:
         f.write("#EXTM3U\n#EXTINF:-1,La 1 (TDT)\nhttp://stream2.es/stream.ts\n")
         
@@ -106,4 +135,6 @@ if __name__ == "__main__":
     for channel in channels:
         print(f"Channel: {channel['name']}, URLs: {len(channel['urls'])}")
         for url in channel['urls']:
-            print(f"  - {url}")
+            mc = channel['url_max_conn'].get(url)
+            limit = f"max-conn={mc}" if mc else "sin límite"
+            print(f"  - {url}  [{limit}]")
