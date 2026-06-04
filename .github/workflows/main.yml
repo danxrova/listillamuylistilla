@@ -50,7 +50,7 @@ jobs:
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update optimized M3U list and state [skip ci]" && git push)
 
       - name: Upload report as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: stream-report
           path: data/report.md
