@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>ListillaSecretilla: Home</title>
+<link rel="icon" type="image/x-icon" href="/icon.ico">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+html, body{
+  height:100%;
+  overflow:hidden;
+}
+
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(-45deg,#6a11cb,#2575fc,#ff4d6d,#ff9f1c);
+  background-size:400% 400%;
+  animation:gradientMove 15s ease infinite;
+  color:white;
+}
+
+@keyframes gradientMove{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+.container{
+  text-align:center;
+  backdrop-filter:blur(12px);
+  background:rgba(0,0,0,0.35);
+  padding:45px;
+  border-radius:22px;
+  box-shadow:0 15px 50px rgba(0,0,0,0.4);
+  width:95%;
+  max-width:800px;
+  max-height:90vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.logo{
+  width:180px;
+  margin:0 auto 20px auto;
+  animation:float 3s ease-in-out infinite;
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,0.5));
+}
+
+@keyframes float{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-10px);}
+}
+
+h1{
+  font-size:2.4rem;
+  margin-bottom:10px;
+}
+
+p{
+  opacity:.9;
+  margin-bottom:25px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 30px;
+  border-radius:12px;
+  background:white;
+  color:#333;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+  margin-bottom:25px;
+}
+
+.btn:hover{
+  transform:scale(1.08);
+  box-shadow:0 0 25px rgba(255,255,255,0.6);
+}
+
+.guide{
+  flex:1;
+  overflow:auto;
+  text-align:left;
+  padding-right:5px;
+  scrollbar-width:none;
+}
+
+.guide::-webkit-scrollbar{
+  display:none;
+}
+
+.channel{
+  background:rgba(255,255,255,0.12);
+  padding:12px 15px;
+  border-radius:12px;
+  margin:8px 0;
+  transition:.2s;
+}
+
+.channel:hover{
+  background:rgba(255,255,255,0.2);
+}
+
+.title{
+  font-weight:bold;
+  font-size:.95rem;
+}
+
+.time{
+  opacity:.8;
+  font-size:.8rem;
+}
+
+.loading{
+  text-align:center;
+  opacity:.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <img class="logo" src="ListillaSecretilla (1).svg" alt="Logo">
+  <h1>Listilla Secretilla</h1>
+  <p>Una lista m3u para ver la tv de españa.</p>
+
+  <div style="display:flex; justify-content:center; gap:15px;">
+    <a class="btn" href="/listilla.m3u">Abrir lista</a>
+    <a class="btn" href="guia.html">Ver guía</a>
+  </div>
+
+  <div class="guide">
+    <div id="epg" class="loading">Cargando programas en directo...</div>
+  </div>
+</div>
+
+<script>
+
+const EPG_URL = "https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guiatv.xml";
+const M3U_URL = "/listilla.m3u";
+
+function parseFecha(xmltvDate){
+  return new Date(
+    xmltvDate.substring(0,4),
+    xmltvDate.substring(4,6)-1,
+    xmltvDate.substring(6,8),
+    xmltvDate.substring(8,10),
+    xmltvDate.substring(10,12),
+    xmltvDate.substring(12,14)
+  );
+}
+
+function limpiarNombre(nombre){
+  return nombre
+    .toLowerCase()
+    .replace(/\(.*?\)/g,"")
+    .replace(/hd|sd/gi,"")
+    .trim();
+}
+
+function formatearHora(fecha){
+  return fecha.toLocaleTimeString('es-ES', {
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+}
+
+async function cargarOrdenM3U(){
+  const res = await fetch(M3U_URL);
+  const text = await res.text();
+  const lineas = text.split("\n");
+  const canales = [];
+
+  lineas.forEach(line=>{
+    if(line.startsWith("#EXTINF")){
+      const nombre = line.split(",").pop().trim();
+      canales.push(nombre);
+    }
+  });
+
+  return canales;
+}
+
+async function cargarEPG(){
+
+try{
+
+const [ordenCanales, epgRes] = await Promise.all([
+  cargarOrdenM3U(),
+  fetch(EPG_URL)
+]);
+
+const xmlText = await epgRes.text();
+const parser = new DOMParser();
+const xml = parser.parseFromString(xmlText,"text/xml");
+
+const programas = xml.querySelectorAll("programme");
+const ahora = new Date();
+
+const enDirecto = {};
+
+programas.forEach(p=>{
+  const inicio = parseFecha(p.getAttribute("start"));
+  const fin = parseFecha(p.getAttribute("stop"));
+
+  if(ahora >= inicio && ahora <= fin){
+    const canal = p.getAttribute("channel");
+    const titulo = p.querySelector("title")?.textContent || "Sin título";
+    enDirecto[canal] = {titulo,inicio,fin};
+  }
+});
+
+const lista = document.getElementById("epg");
+lista.innerHTML="";
+
+let mostrados=0;
+
+ordenCanales.forEach(nombreM3U=>{
+
+  const limpioM3U = limpiarNombre(nombreM3U);
+
+  for(const canalEPG in enDirecto){
+
+    const limpioEPG = limpiarNombre(canalEPG);
+
+    if(limpioEPG.includes(limpioM3U) || limpioM3U.includes(limpioEPG)){
+
+      const prog = enDirecto[canalEPG];
+
+      const div = document.createElement("div");
+      div.className="channel";
+
+      div.innerHTML=`
+        <div class="title">${prog.titulo}</div>
+        <div class="time">
+          ${nombreM3U} · 
+          ${formatearHora(prog.inicio)}
+          -
+          ${formatearHora(prog.fin)}
+        </div>
+      `;
+
+      lista.appendChild(div);
+      mostrados++;
+      break;
+    }
+  }
+});
+
+if(mostrados===0){
+  lista.innerHTML="No hay datos disponibles.";
+}
+
+}catch(err){
+  document.getElementById("epg").innerHTML="Error cargando datos.";
+}
+
+}
+
+cargarEPG();
+
+</script>
+
+</body>
+</html>
