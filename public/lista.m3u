@@ -1,87 +1,81 @@
 #EXTM3U
-#EXTINF:-1,La 1 HD
-http://79.112.79.166:8069/udp/239.255.4.4:1234
-
-#EXTINF:-1,La 2
-http://79.112.79.166:8069/udp/239.10.20.2:1234
-
-#EXTINF:-1,antena3
-http://79.112.79.166:8069/udp/239.250.4.1:1234
-
-#EXTINF:-1,Cuatro
-http://79.112.79.166:8069/udp/239.255.4.49:1234
-
-#EXTINF:-1,Telecinco
-http://79.112.79.166:8069/udp/239.250.5.1:1234
-
-#EXTINF:-1,laSexta
-http://79.112.79.166:8069/udp/239.250.4.6:1234
-
-#EXTINF:-1,24h
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/13" tvg-id="056cbf343de7558a081278f3d779c381",24h HD
 http://79.112.79.166:8069/udp/239.10.20.4:1234
 
-#EXTINF:-1,clan
-http://79.112.79.166:8069/udp/239.10.20.21:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/22" tvg-id="eeb0cb56573bfb8f4c9bf5372ed5f299",AndaluciaTV
+http://80.30.195.14:9981/stream/channelid/1456189678?ticket=0556A5D7F8DE240CD1F67AF4AED7AE635EA40528&profile=pass
 
-#EXTINF:-1,tdp
-http://79.112.79.166:8069/udp/239.10.20.23:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/23" tvg-id="137bc783a11aa76d13a54f4490c7338f",Antena 3
+http://79.112.79.166:8069/udp/239.250.4.1:1234
 
-#EXTINF:-1,neox
-http://79.112.79.166:8069/udp/239.250.4.3:1234
-
-#EXTINF:-1,nova
-http://79.112.79.166:8069/udp/239.10.20.14:1234
-
-#EXTINF:-1,Mega
-http://79.112.79.166:8069/udp/239.10.20.42:1234
-
-#EXTINF:-1,FDF
-http://79.112.79.166:8069/udp/239.250.5.3:1234
-
-#EXTINF:-1,Divinity
-http://79.112.79.166:8069/udp/239.250.5.4:1234
-
-#EXTINF:-1,Energy
-http://79.112.79.166:8069/udp/239.10.20.49:1234
-
-#EXTINF:-1,Boing
-http://79.112.79.166:8069/udp/239.10.20.50:1234
-
-#EXTINF:-1,DMAX
-http://79.112.79.166:8069/udp/239.250.3.3:1234
-
-#EXTINF:-1,TEN
-http://79.112.79.166:8069/udp/239.10.20.38:1234
-
-#EXTINF:-1,DKISS
-http://79.112.79.166:8069/udp/239.10.20.28:1234
-
-#EXTINF:-1,TRECE
-http://79.112.79.166:8069/udp/239.10.20.60:1234
-
-#EXTINF:-1,BeMad tv HD
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/9" tvg-id="fe148ace67bb800c077747318fbffbdf",BeMad tv HD
 http://79.112.79.166:8069/udp/239.10.20.36:1234
 
-#EXTINF:-1,VEO 7
-http://79.112.79.166:8069/udp/239.255.4.57:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/4" tvg-id="d3a6312786d05efa732002067a460d6c",Boing
+http://79.112.79.166:8069/udp/239.10.20.50:1234
 
-#EXTINF:-1,Squirrel
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/19" tvg-id="4f448e7b2dd0ed722fb110c2089b33d3",CanalSur2
+http://80.30.195.14:9981/stream/channelid/2072921167?ticket=D1F54416145003B14144A1BC7CC73B2A498CF7AC&profile=pass
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/20" tvg-id="33cf4c89cfd9a66022e63e3cc47eabbe",CanalSurHD
+http://80.30.195.14:9981/stream/channelid/156028723?ticket=C796E4077A18EEE494E3DE7535EC7E2B009A8C82&profile=pass
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/5" tvg-id="3e69c8e4900ae6bdbb5e31cd9ef40ade",Clan HD
+http://79.112.79.166:8069/udp/239.10.20.21:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/30" tvg-id="0399f54c4d86c24dc8fe85daf3d97493",Cuatro HD
+http://79.112.79.166:8069/udp/239.250.5.2:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/28" tvg-id="e975f81bdd014737ed2618d7e3c32515",Divinity
+http://79.112.79.166:8069/udp/239.10.20.18:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/6" tvg-id="3227238e60e69b93ef7901a45d32394b",DKISS
+http://79.112.79.166:8069/udp/239.10.20.28:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/33" tvg-id="40d3489b23c09cfb926e784ea1cc85b5",DMAX
+http://79.112.79.166:8069/udp/239.10.20.53:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/3" tvg-id="7a04e5698ad09ea7376ea4bce3b78741",Energy
+http://79.112.79.166:8069/udp/239.10.20.49:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/27" tvg-id="b1c6f8442b47b31e2ef6b566629cd2ed",FDF
+http://79.112.79.166:8069/udp/239.10.20.17:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/14" tvg-id="aca440fcc9d112dafe3b8eb79e519bfd",La 1 HD
+http://79.112.79.166:8069/udp/239.10.20.1:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/15" tvg-id="47f219a37e65e88b32ccb9638659512e",La 2 HD
+http://79.112.79.166:8069/udp/239.10.20.8:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/24" tvg-id="48ac447a3ce44368b0b57444792b598d",laSexta
+http://79.112.79.166:8069/udp/239.10.20.11:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/25" tvg-id="f153f54f19cddf190393d120c4f73931",neox
+http://79.112.79.166:8069/udp/239.10.20.13:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/26" tvg-id="1d24da6bc0bd62050a17b70b6d60dbec",nova
+http://79.112.79.166:8069/udp/239.250.4.4:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/31" tvg-id="a1ed183a415bb0d5eda4fb486f0fc8f6",SQUIRREL
 http://79.112.79.166:8069/udp/239.255.4.82:1234
 
-#EXTINF:-1,Disney Channel
-http://79.112.79.166:8069/udp/239.10.20.51:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/32" tvg-id="9399fa639c5e107dfb1d7c025e895062",SQUIRREL2
+http://79.112.79.166:8069/udp/239.250.3.2:1234
 
-#EXTINF:-1,Realmadrid TV HD
-http://79.112.79.166:8069/udp/239.10.20.37:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/12" tvg-id="82a7869cfb843aff27f99ba3e08dbd08",tdp HD
+http://79.112.79.166:8069/udp/239.255.4.78:1234
 
-#EXTINF:-1,TeleMadrid
-http://79.112.79.166:8069/udp/239.255.4.76:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/29" tvg-id="3a0223adb23d5cf7077bc8f8c9e60dc4",Telecinco HD
+http://79.112.79.166:8069/udp/239.250.5.1:1234
 
-#EXTINF:-1,LaOtra
-http://79.112.79.166:8069/udp/239.255.4.53:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/11" tvg-id="2d7bc46529124e7e65c8ed8e710137fa",TEN
+http://79.112.79.166:8069/udp/239.10.20.38:1234
 
-#EXTINF:-1,HIT TV
-http://79.112.79.166:8069/udp/239.10.20.62:1234
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/2" tvg-id="8a0aa391d7ca7c27daa656220986cb32",TRECE
+http://79.112.79.166:8069/udp/239.10.20.60:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/34" tvg-id="011841c602ded4289b11cc5ea084693c",VEO 7
+http://79.112.79.166:8069/udp/239.255.4.57:1234
 
 #EXTINF:-1,8madrid TV
 http://79.112.79.166:8069/udp/239.10.20.59:1234
@@ -104,6 +98,9 @@ http://79.112.79.166:8069/udp/239.10.20.63:1234
 #EXTINF:-1,DIAL
 http://79.112.79.166:8069/udp/239.10.20.34:1234
 
+#EXTINF:-1,Disney Channel
+http://79.112.79.166:8069/udp/239.10.20.51:1234
+
 #EXTINF:-1,Déjate TV
 http://79.112.79.166:8069/udp/239.10.20.68:1234
 
@@ -117,10 +114,16 @@ http://79.112.79.166:8069/udp/239.10.20.44:1234
 http://79.112.79.166:8069/udp/239.10.20.54:1234
 
 #EXTINF:-1,HIT FM
-http://79.112.79.166:8069/udp/239.10.20.30:1234
+http://79.112.79.166:8069/udp/239.10.20.66:1234
+
+#EXTINF:-1,HIT TV
+http://79.112.79.166:8069/udp/239.10.20.62:1234
 
 #EXTINF:-1,Kiss FM
 http://79.112.79.166:8069/udp/239.10.20.65:1234
+
+#EXTINF:-1,LA OTRA HD
+http://79.112.79.166:8069/udp/239.255.4.53:1234
 
 #EXTINF:-1,LOS40
 http://79.112.79.166:8069/udp/239.10.20.33:1234
@@ -170,14 +173,17 @@ http://79.112.79.166:8069/udp/239.10.20.26:1234
 #EXTINF:-1,Radiolé
 http://79.112.79.166:8069/udp/239.10.20.41:1234
 
+#EXTINF:-1,Realmadrid TV HD
+http://79.112.79.166:8069/udp/239.10.20.37:1234
+
 #EXTINF:-1,Rock FM
 http://79.112.79.166:8069/udp/239.10.20.48:1234
 
 #EXTINF:-1,SER
 http://79.112.79.166:8069/udp/239.10.20.32:1234
 
-#EXTINF:-1,SQUIRREL2
-http://79.112.79.166:8069/udp/239.250.3.2:1234
+#EXTINF:-1,Telemadrid HD
+http://79.112.79.166:8069/udp/239.255.3.1:1234
 
 #EXTINF:-1,Telemadrid HDR
 http://79.112.79.166:8069/udp/239.255.3.2:1234
@@ -187,4 +193,7 @@ http://79.112.79.166:8069/udp/239.10.20.35:1234
 
 #EXTINF:-1,esRadio
 http://79.112.79.166:8069/udp/239.10.20.31:1234
+
+#EXTINF:-1,mega HD
+http://79.112.79.166:8069/udp/239.10.20.42:1234
 
