@@ -1,9 +1,12 @@
 #EXTM3U
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/13" tvg-id="056cbf343de7558a081278f3d779c381",24h HD
-http://79.112.79.166:8069/udp/239.10.20.4:1234
+http://92.176.119.180:2095/play/a1fz
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/8" tvg-id="3b83541b4e662766e7988e0df5b6da26",A3Series
 http://213.97.163.175:4022/udp/239.10.20.35:1234
+
+#EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/22" tvg-id="eeb0cb56573bfb8f4c9bf5372ed5f299",AndaluciaTV
+http://185.56.180.254:54545/udp/239.1.1.141:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/23" tvg-id="137bc783a11aa76d13a54f4490c7338f",Antena 3
 http://79.112.79.166:8069/udp/239.10.20.9:1234
@@ -18,10 +21,10 @@ http://79.112.79.166:8069/udp/239.10.20.50:1234
 http://79.112.79.166:8069/udp/239.10.20.21:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/30" tvg-id="0399f54c4d86c24dc8fe85daf3d97493",Cuatro HD
-http://79.112.79.166:8069/udp/239.255.4.49:1234
+http://79.112.79.166:8069/udp/239.250.5.2:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/28" tvg-id="e975f81bdd014737ed2618d7e3c32515",Divinity
-http://79.112.79.166:8069/udp/239.10.20.18:1234
+http://79.112.79.166:8069/udp/239.250.5.4:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/6" tvg-id="3227238e60e69b93ef7901a45d32394b",DKISS
 http://79.112.79.166:8069/udp/239.10.20.28:1234
@@ -36,7 +39,7 @@ http://79.112.79.166:8069/udp/239.10.20.49:1234
 http://79.112.79.166:8069/udp/239.10.20.17:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/14" tvg-id="aca440fcc9d112dafe3b8eb79e519bfd",La 1 HD
-http://79.112.79.166:8069/udp/239.10.20.1:1234
+http://79.112.79.166:8069/udp/239.255.4.4:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/15" tvg-id="47f219a37e65e88b32ccb9638659512e",La 2 HD
 http://79.112.79.166:8069/udp/239.10.20.8:1234
@@ -57,7 +60,7 @@ http://79.112.79.166:8069/udp/239.255.4.82:1234
 http://79.112.79.166:8069/udp/239.250.3.2:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/12" tvg-id="82a7869cfb843aff27f99ba3e08dbd08",tdp HD
-http://79.112.79.166:8069/udp/239.10.20.3:1234
+http://79.112.79.166:8069/udp/239.255.4.78:1234
 
 #EXTINF:-1 logo="http://80.30.195.14:9981/imagecache/29" tvg-id="3a0223adb23d5cf7077bc8f8c9e60dc4",Telecinco HD
 http://79.112.79.166:8069/udp/239.255.4.47:1234
@@ -102,7 +105,7 @@ http://79.112.79.166:8069/udp/239.10.20.52:1234
 http://79.112.79.166:8069/udp/239.10.20.37:1234
 
 #EXTINF:-1,Telemadrid HD
-http://79.112.79.166:8069/udp/239.255.4.19:1234
+http://79.112.79.166:8069/udp/239.255.4.76:1234
 
 #EXTINF:-1,Telemadrid HDR
 http://79.112.79.166:8069/udp/239.255.3.2:1234
@@ -127,4 +130,16 @@ http://213.97.163.175:4022/udp/239.10.20.102:1234
 
 #EXTINF:-1,TV3
 http://213.97.163.175:4022/udp/239.10.20.100:1234
+
+#EXTINF:-1,Nickelodeon
+http://185.56.180.254:54545/udp/239.1.1.97:1234
+
+#EXTINF:-1,TVG HD A Coruña
+http://185.56.180.254:54545/udp/234.5.2.61:20000
+
+#EXTINF:-1 group-title="-",À Punt HD
+http://92.176.119.180:2095/play/a17d
+
+#EXTINF:-1 group-title="-",La 8 Mediterráneo HD
+http://92.176.119.180:2095/play/a17e
 
