@@ -2,23 +2,25 @@ name: Update IPTV M3U List
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Run every 6 hours
-  workflow_dispatch:      # Allow manual trigger
-    push:
+    - cron: '*/10 * * * *'  # Run every 10 minutes
+  workflow_dispatch:        # Allow manual trigger
+  push:
     paths:
-      - 'data/inputs/**'  # Run when any input file changes
+      - 'data/inputs/**'    # Run when any input file changes
+
+permissions:
+  contents: write
 
 jobs:
   update-list:
     runs-on: ubuntu-latest
-    # Prevent concurrent runs of the same workflow
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -32,6 +34,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install aiohttp
 
+      - name: Create output directory
+        run: mkdir -p public
+
       - name: Run M3U Manager
         env:
           INPUT_DIR: 'data/inputs'
@@ -43,11 +48,15 @@ jobs:
         run: python main.py
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add public/output.m3u data/state.json data/report.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update optimized M3U list and state [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "Update optimized M3U list and state [skip ci]" && \
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Upload report as artifact
         uses: actions/upload-artifact@v4
