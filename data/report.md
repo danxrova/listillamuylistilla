@@ -2,40 +2,40 @@
 
 | Canal | Estado | Mejor URL | Latencia | Candidatos | Límite conn. |
 | --- | --- | --- | --- | --- | --- |
-| La 1 Madrid | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.1:1234 | 0.243s | 3 | sin límite |
-| La 2 HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.2:1234 | 0.245s | 7 | sin límite |
-| Antena 3 | ✅ OK | http://79.112.79.166:8069/udp/239.250.4.1:1234 | 0.246s | 8 | sin límite |
-| Cuatro HD | ✅ OK | http://79.112.79.166:8069/udp/239.255.4.49:1234 | 0.259s | 6 | sin límite |
-| Telecinco HD | ✅ OK | http://92.176.119.180:2095/play/a15y | 0.256s | 7 | sin límite |
-| laSexta | ✅ OK | http://79.112.79.166:8069/udp/239.250.4.2:1234 | 0.247s | 8 | sin límite |
-| Telemadrid HD | ✅ OK | http://79.112.79.166:8069/udp/239.255.4.19:1234 | 0.263s | 4 | sin límite |
-| Telemadrid HDR | ✅ OK | http://79.112.79.166:8069/udp/239.255.3.2:1234 | 0.251s | 1 | sin límite |
-| LA OTRA HD | ✅ OK | http://79.112.79.166:8069/udp/239.255.4.53:1234 | 0.268s | 2 | sin límite |
-| 8madrid TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.59:1234 | 0.260s | 1 | sin límite |
-| Déjate TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.68:1234 | 0.261s | 1 | sin límite |
-| EL Toro TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.61:1234 | 0.263s | 1 | sin límite |
-| 24h HD | ✅ OK | http://92.176.119.180:2095/play/a1fz | 0.255s | 4 | sin límite |
-| tdp HD | ✅ OK | http://92.176.119.180:2095/play/a175 | 0.255s | 9 | sin límite |
-| neox | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.13:1234 | 0.254s | 6 | sin límite |
-| nova | ✅ OK | http://79.112.79.166:8069/udp/239.250.4.4:1234 | 0.242s | 6 | sin límite |
-| MEGA | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.42:1234 | 0.242s | 6 | sin límite |
-| A3Series | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.35:1234 | 0.248s | 3 | sin límite |
-| BOM | ✅ OK | http://79.112.79.166:8069/udp/239.255.3.4:1234 | 0.242s | 3 | sin límite |
-| BeMad tv HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.36:1234 | 0.244s | 3 | sin límite |
-| Boing | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.50:1234 | 0.251s | 4 | sin límite |
-| Clan HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.21:1234 | 0.241s | 3 | sin límite |
-| DKISS | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.28:1234 | 0.241s | 3 | sin límite |
-| DMAX | ✅ OK | http://79.112.79.166:8069/udp/239.250.3.3:1234 | 0.243s | 5 | sin límite |
-| Divinity | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.18:1234 | 0.244s | 5 | sin límite |
-| Energy | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.49:1234 | 0.251s | 5 | sin límite |
-| FDF | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.17:1234 | 0.251s | 6 | sin límite |
-| HIT TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.62:1234 | 0.241s | 2 | sin límite |
-| Realmadrid TV HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.37:1234 | 0.245s | 5 | sin límite |
-| SQUIRREL | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.51:1234 | 0.250s | 5 | sin límite |
-| SQUIRREL2 | ✅ OK | http://79.112.79.166:8069/udp/239.250.3.2:1234 | 0.256s | 5 | sin límite |
-| TEN | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.38:1234 | 0.242s | 5 | sin límite |
-| TRECE | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.46:1234 | 0.241s | 6 | sin límite |
-| VEO 7 | ✅ OK | http://79.112.79.166:8069/udp/239.250.3.4:1234 | 0.242s | 6 | sin límite |
+| La 1 Madrid | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.5:1234 | 0.245s | 3 | sin límite |
+| La 2 HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.2:1234 | 0.253s | 7 | sin límite |
+| Antena 3 | ✅ OK | http://79.112.79.166:8069/udp/239.255.4.25:1234 | 0.251s | 8 | sin límite |
+| Cuatro HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.20:1234 | 0.253s | 6 | sin límite |
+| Telecinco HD | ✅ OK | http://79.112.79.166:8069/udp/239.255.4.47:1234 | 0.252s | 7 | sin límite |
+| laSexta | ✅ OK | http://79.112.79.166:8069/udp/239.250.4.2:1234 | 0.251s | 8 | sin límite |
+| Telemadrid HD | ✅ OK | http://79.112.79.166:8069/udp/239.255.3.1:1234 | 0.265s | 4 | sin límite |
+| Telemadrid HDR | ✅ OK | http://79.112.79.166:8069/udp/239.255.3.2:1234 | 0.271s | 1 | sin límite |
+| LA OTRA HD | ✅ OK | http://79.112.79.166:8069/udp/239.255.4.53:1234 | 0.276s | 2 | sin límite |
+| 8madrid TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.59:1234 | 0.274s | 1 | sin límite |
+| Déjate TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.68:1234 | 0.268s | 1 | sin límite |
+| EL Toro TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.61:1234 | 0.280s | 1 | sin límite |
+| 24h HD | ✅ OK | http://92.176.119.180:2095/play/a1fz | 0.270s | 4 | sin límite |
+| tdp HD | ✅ OK | http://92.176.119.180:2095/play/a16t | 0.269s | 9 | sin límite |
+| neox | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.13:1234 | 0.257s | 6 | sin límite |
+| nova | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.14:1234 | 0.251s | 6 | sin límite |
+| MEGA | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.42:1234 | 0.253s | 6 | sin límite |
+| A3Series | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.35:1234 | 0.244s | 3 | sin límite |
+| BOM | ✅ OK | http://79.112.79.166:8069/udp/239.255.3.4:1234 | 0.260s | 3 | sin límite |
+| BeMad tv HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.36:1234 | 0.254s | 3 | sin límite |
+| Boing | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.50:1234 | 0.272s | 4 | sin límite |
+| Clan HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.21:1234 | 0.278s | 3 | sin límite |
+| DKISS | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.28:1234 | 0.261s | 3 | sin límite |
+| DMAX | ✅ OK | http://79.112.79.166:8069/udp/239.250.3.3:1234 | 0.261s | 5 | sin límite |
+| Divinity | ✅ OK | http://79.112.79.166:8069/udp/239.250.5.4:1234 | 0.254s | 5 | sin límite |
+| Energy | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.49:1234 | 0.259s | 5 | sin límite |
+| FDF | ✅ OK | http://79.112.79.166:8069/udp/239.250.5.3:1234 | 0.250s | 6 | sin límite |
+| HIT TV | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.62:1234 | 0.255s | 2 | sin límite |
+| Realmadrid TV HD | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.37:1234 | 0.263s | 5 | sin límite |
+| SQUIRREL | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.51:1234 | 0.259s | 5 | sin límite |
+| SQUIRREL2 | ✅ OK | http://79.112.79.166:8069/udp/239.250.3.2:1234 | 0.245s | 5 | sin límite |
+| TEN | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.38:1234 | 0.258s | 5 | sin límite |
+| TRECE | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.46:1234 | 0.258s | 6 | sin límite |
+| VEO 7 | ✅ OK | http://79.112.79.166:8069/udp/239.10.20.54:1234 | 0.249s | 6 | sin límite |
 | La 1 Cataluña | ❌ DOWN | http://213.97.163.175:4022/udp/239.10.20.5:1234 | N/A | 1 | sin límite |
 | La 2 / 2Cat | ❌ DOWN | http://213.97.163.175:4022/udp/239.10.20.8:1234 | N/A | 1 | sin límite |
 | TV3 | ✅ OK | http://185.56.180.254:54545/udp/234.5.2.97:20000 | 0.000s | 2 | max-conn=2 |
@@ -82,7 +82,7 @@
 | ONDA JEREZ | ✅ OK | http://185.56.180.254:54545/udp/239.1.2.69:1234 | 0.000s | 1 | max-conn=2 |
 | ARAGON TV | ✅ OK | http://185.56.180.254:54545/udp/234.5.2.125:20000 | 0.000s | 1 | max-conn=2 |
 | CMM | ✅ OK | http://185.56.180.254:54545/udp/234.5.2.106:20000 | 0.000s | 1 | max-conn=2 |
-| À Punt HD | ✅ OK | http://92.176.119.180:2095/play/a17d | 0.258s | 2 | sin límite |
+| À Punt HD | ✅ OK | http://92.176.119.180:2095/play/a17d | 0.273s | 2 | sin límite |
 | 12TValicante | ✅ OK | http://185.56.180.254:54545/udp/234.5.2.148:20000 | 0.000s | 1 | max-conn=2 |
 | levantetv | ✅ OK | http://185.56.180.254:54545/udp/234.5.2.104:20000 | 0.000s | 1 | max-conn=2 |
 | 8Mediterraneo | ✅ OK | http://185.56.180.254:54545/udp/234.5.2.145:20000 | 0.000s | 1 | max-conn=2 |
@@ -102,7 +102,7 @@
 | SAT.1 | ✅ OK | http://185.56.180.254:54545/udp/239.1.2.62:1234 | 0.000s | 1 | max-conn=2 |
 | TOGGO | ✅ OK | http://185.56.180.254:54545/udp/239.1.2.60:1234 | 0.000s | 1 | max-conn=2 |
 | VOX | ✅ OK | http://185.56.180.254:54545/udp/239.1.2.58:1234 | 0.000s | 1 | max-conn=2 |
-| La 1 Valencia | ✅ OK | http://92.176.119.180:2095/play/a16x | 0.256s | 3 | sin límite |
-| La 1 UHD | ✅ OK | http://92.176.119.180:2095/play/a1fd | 0.265s | 1 | sin límite |
-| La 8 Mediterráneo HD | ✅ OK | http://92.176.119.180:2095/play/a17e | 0.257s | 2 | sin límite |
-| PARAMOUNT NETWORK | ✅ OK | http://92.176.119.180:2095/play/a1ez | 0.256s | 2 | sin límite |
+| La 1 Valencia | ✅ OK | http://92.176.119.180:2095/play/a16x | 0.263s | 3 | sin límite |
+| La 1 UHD | ✅ OK | http://92.176.119.180:2095/play/a1fd | 0.263s | 1 | sin límite |
+| La 8 Mediterráneo HD | ✅ OK | http://92.176.119.180:2095/play/a17e | 0.261s | 2 | sin límite |
+| PARAMOUNT NETWORK | ✅ OK | http://92.176.119.180:2095/play/a16q | 0.258s | 2 | sin límite |
