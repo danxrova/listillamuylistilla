@@ -1,120 +1,102 @@
 #EXTM3U
-#EXTINF:-1,La 1 Madrid
-http://79.112.79.166:8069/udp/239.255.4.4:1234
+#EXTINF:-1 group-title="-",La 1 Valencia
+http://92.176.119.180:2095/play/a1f8
 
-#EXTINF:-1,La 2 HD
-http://79.112.79.166:8069/udp/239.10.20.2:1234
+#EXTINF:-1 group-title="-",La 1 UHD
+http://92.176.119.180:2095/play/a1fd
 
-#EXTINF:-1,Antena 3
-http://79.112.79.166:8069/udp/239.250.4.1:1234
+#EXTINF:-1 group-title="-",La 2 HD
+http://79.112.79.166:8069/udp/239.255.4.6:1234
 
-#EXTINF:-1,Cuatro HD
-http://79.112.79.166:8069/udp/239.250.5.2:1234
+#EXTINF:-1 group-title="-",Antena 3
+http://79.112.79.166:8069/udp/239.10.20.9:1234
 
-#EXTINF:-1,Telecinco HD
-http://79.112.79.166:8069/udp/239.255.4.47:1234
+#EXTINF:-1 group-title="-",Cuatro HD
+http://79.112.79.166:8069/udp/239.255.4.49:1234
 
-#EXTINF:-1,laSexta
+#EXTINF:-1 group-title="-",Telecinco HD
+http://79.112.79.166:8069/udp/239.10.20.19:1234
+
+#EXTINF:-1 group-title="-",laSexta
 http://79.112.79.166:8069/udp/239.10.20.11:1234
 
-#EXTINF:-1,Telemadrid HD
-http://79.112.79.166:8069/udp/239.255.4.19:1234
+#EXTINF:-1 group-title="-",À Punt HD
+http://92.176.119.180:2095/play/a17d
 
-#EXTINF:-1,Telemadrid HDR
-http://79.112.79.166:8069/udp/239.255.3.2:1234
+#EXTINF:-1 group-title="-",La 8 Mediterráneo HD
+http://92.176.119.180:2095/play/a1ft
 
-#EXTINF:-1,LA OTRA HD
-http://79.112.79.166:8069/udp/239.255.4.53:1234
+#EXTINF:-1 group-title="-",24h HD
+http://92.176.119.180:2095/play/a1fz
 
-#EXTINF:-1,8madrid TV
-http://79.112.79.166:8069/udp/239.10.20.59:1234
+#EXTINF:-1 group-title="-",tdp HD
+http://92.176.119.180:2095/play/a1f6
 
-#EXTINF:-1,Déjate TV
-http://79.112.79.166:8069/udp/239.10.20.68:1234
-
-#EXTINF:-1,EL Toro TV
-http://79.112.79.166:8069/udp/239.10.20.61:1234
-
-#EXTINF:-1,24h HD
-http://79.112.79.166:8069/udp/239.10.20.4:1234
-
-#EXTINF:-1,tdp HD
-http://79.112.79.166:8069/udp/239.10.20.3:1234
-
-#EXTINF:-1,neox
+#EXTINF:-1 group-title="-",neox
 http://79.112.79.166:8069/udp/239.10.20.13:1234
 
-#EXTINF:-1,nova
-http://79.112.79.166:8069/udp/239.250.4.4:1234
+#EXTINF:-1 group-title="-",nova
+http://79.112.79.166:8069/udp/239.10.20.14:1234
 
-#EXTINF:-1,MEGA
+#EXTINF:-1 group-title="-",mega
 http://79.112.79.166:8069/udp/239.10.20.42:1234
 
-#EXTINF:-1,A3Series
-http://79.112.79.166:8069/udp/239.10.20.35:1234
+#EXTINF:-1 group-title="-",BOM
+http://79.112.79.166:8069/udp/239.255.3.4:1234
 
-#EXTINF:-1,BOM
-http://92.176.119.180:2095/play/a17f
-
-#EXTINF:-1,BeMad tv HD
-http://79.112.79.166:8069/udp/239.10.20.36:1234
-
-#EXTINF:-1,Boing
+#EXTINF:-1 group-title="-",Boing
 http://79.112.79.166:8069/udp/239.10.20.50:1234
 
-#EXTINF:-1,Clan HD
-http://79.112.79.166:8069/udp/239.10.20.21:1234
-
-#EXTINF:-1,DKISS
-http://79.112.79.166:8069/udp/239.10.20.28:1234
-
-#EXTINF:-1,DMAX
+#EXTINF:-1 group-title="-",DMAX
 http://79.112.79.166:8069/udp/239.250.3.3:1234
 
-#EXTINF:-1,Divinity
-http://92.176.119.180:2095/play/a1g1
+#EXTINF:-1 group-title="-",Divinity
+http://79.112.79.166:8069/udp/239.10.20.18:1234
 
-#EXTINF:-1,Energy
+#EXTINF:-1 group-title="-",Energy
 http://79.112.79.166:8069/udp/239.10.20.49:1234
 
-#EXTINF:-1,FDF
+#EXTINF:-1 group-title="-",FDF
 http://79.112.79.166:8069/udp/239.10.20.17:1234
 
-#EXTINF:-1,HIT TV
-http://79.112.79.166:8069/udp/239.10.20.62:1234
+#EXTINF:-1 group-title="-",PARAMOUNT NETWORK
+http://92.176.119.180:2095/play/a1ez
 
-#EXTINF:-1,Realmadrid TV HD
+#EXTINF:-1 group-title="-",Realmadrid TV HD
 http://79.112.79.166:8069/udp/239.10.20.37:1234
 
-#EXTINF:-1,SQUIRREL
+#EXTINF:-1 group-title="-",SQUIRREL
 http://79.112.79.166:8069/udp/239.10.20.51:1234
 
-#EXTINF:-1,SQUIRREL2
-http://79.112.79.166:8069/udp/239.250.3.2:1234
+#EXTINF:-1 group-title="-",SQUIRREL2
+http://79.112.79.166:8069/udp/239.10.20.52:1234
 
-#EXTINF:-1,TEN
+#EXTINF:-1 group-title="-",TEN
 http://79.112.79.166:8069/udp/239.10.20.38:1234
 
-#EXTINF:-1,TRECE
+#EXTINF:-1 group-title="-",TRECE
 http://79.112.79.166:8069/udp/239.10.20.46:1234
 
-#EXTINF:-1,VEO 7
-http://79.112.79.166:8069/udp/239.255.4.57:1234
-
-#EXTINF:-1,TV3
-http://185.56.180.254:54545/udp/234.5.2.97:20000
-
-#EXTINF:-1,SX3/33
-http://185.56.180.254:54545/udp/234.5.2.116:20000
-
-#EXTINF:-1,Esport3
-http://185.56.180.254:54545/udp/234.5.2.117:20000
+#EXTINF:-1 group-title="-",VEO 7
+http://79.112.79.166:8069/udp/239.10.20.54:1234
 
 #EXTINF:-1,La 1 Notengoidealandia
 http://185.56.180.254:54545/udp/234.5.2.21:20000
 
 #EXTINF:-1,La 1 Notengoidealandia2
 http://185.56.180.254:54545/udp/239.1.1.83:1234
+
+#EXTINF:-1,Clan
+http://79.112.79.166:8069/udp/239.10.20.21:1234
+
+#EXTINF:-1,A3Series
+http://79.112.79.166:8069/udp/239.10.20.35:1234
+
+#EXTINF:-1,DKISS
+http://79.112.79.166:8069/udp/239.10.20.28:1234
+
+#EXTINF:-1,BeMad tv HD
+http://79.112.79.166:8069/udp/239.10.20.36:1234
 
 #EXTINF:-1,AMC
 http://185.56.180.254:54545/udp/224.168.11.211:2211
@@ -224,8 +206,14 @@ http://185.56.180.254:54545/udp/234.5.2.125:20000
 #EXTINF:-1,CMM
 http://185.56.180.254:54545/udp/234.5.2.106:20000
 
-#EXTINF:-1,À Punt HD
-http://92.176.119.180:2095/play/a17d
+#EXTINF:-1,TV3
+http://185.56.180.254:54545/udp/234.5.2.97:20000
+
+#EXTINF:-1,SX3/33
+http://185.56.180.254:54545/udp/234.5.2.116:20000
+
+#EXTINF:-1,Esport3
+http://185.56.180.254:54545/udp/234.5.2.117:20000
 
 #EXTINF:-1,12TValicante
 http://185.56.180.254:54545/udp/234.5.2.148:20000
@@ -245,8 +233,17 @@ http://185.56.180.254:54545/udp/239.1.1.150:1234
 #EXTINF:-1,TVG HD A Coruña
 http://185.56.180.254:54545/udp/234.5.2.61:20000
 
+#EXTINF:-1,TeleMadrid
+http://79.112.79.166:8069/udp/239.255.4.76:1234
+
+#EXTINF:-1,LaOtra
+http://79.112.79.166:8069/udp/239.255.4.53:1234
+
 #EXTINF:-1,8MADRID
 http://185.56.180.254:54545/udp/234.5.2.122:20000
+
+#EXTINF:-1,HIT TV
+http://79.112.79.166:8069/udp/239.10.20.62:1234
 
 #EXTINF:-1,BBC WORLD NEWS
 http://185.56.180.254:54545/udp/234.5.2.192:20000
@@ -284,15 +281,18 @@ http://185.56.180.254:54545/udp/239.1.2.60:1234
 #EXTINF:-1,VOX
 http://185.56.180.254:54545/udp/239.1.2.58:1234
 
-#EXTINF:-1 group-title="-",La 1 Valencia
-http://92.176.119.180:2095/play/a16x
+#EXTINF:-1,La 1 Madrid
+http://79.112.79.166:8069/udp/239.10.20.1:1234
 
-#EXTINF:-1 group-title="-",La 1 UHD
-http://92.176.119.180:2095/play/a1fd
+#EXTINF:-1,Telemadrid HDR
+http://79.112.79.166:8069/udp/239.255.3.2:1234
 
-#EXTINF:-1 group-title="-",La 8 Mediterráneo HD
-http://92.176.119.180:2095/play/a17e
+#EXTINF:-1,8madrid TV
+http://79.112.79.166:8069/udp/239.10.20.59:1234
 
-#EXTINF:-1 group-title="-",PARAMOUNT NETWORK
-http://92.176.119.180:2095/play/a16q
+#EXTINF:-1,Déjate TV
+http://79.112.79.166:8069/udp/239.10.20.68:1234
+
+#EXTINF:-1,EL Toro TV
+http://79.112.79.166:8069/udp/239.10.20.61:1234
 
