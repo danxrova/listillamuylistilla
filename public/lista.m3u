@@ -1,72 +1,84 @@
 #EXTM3U
+#EXTINF:-1 group-title="-",La 1 Valencia
+http://92.176.119.180:2095/play/a1f8
+
+#EXTINF:-1 group-title="-",La 1 UHD
+http://92.176.119.180:2095/play/a1fd
+
 #EXTINF:-1 group-title="-",La 2 HD
-http://79.112.79.166:8069/udp/239.10.20.2:1234
+http://79.112.79.166:8069/udp/239.10.20.8:1234
 
 #EXTINF:-1 group-title="-",Antena 3
-http://79.112.79.166:8069/udp/239.250.4.1:1234
+http://92.176.119.180:2095/play/a16j
 
 #EXTINF:-1 group-title="-",Cuatro HD
-http://79.112.79.166:8069/udp/239.250.5.2:1234
+http://92.176.119.180:2095/play/a1g2
 
 #EXTINF:-1 group-title="-",Telecinco HD
-http://79.112.79.166:8069/udp/239.10.20.19:1234
+http://92.176.119.180:2095/play/a15y
 
 #EXTINF:-1 group-title="-",laSexta
-http://79.112.79.166:8069/udp/239.250.4.6:1234
+http://79.112.79.166:8069/udp/239.255.4.18:1234
 
 #EXTINF:-1 group-title="-",À Punt HD
-http://185.56.180.254:54545/udp/234.5.2.185:20000
+http://92.176.119.180:2095/play/a17d
+
+#EXTINF:-1 group-title="-",La 8 Mediterráneo HD
+http://92.176.119.180:2095/play/a17e
 
 #EXTINF:-1 group-title="-",24h HD
-http://79.112.79.166:8069/udp/239.10.20.4:1234
+http://92.176.119.180:2095/play/a1fz
 
 #EXTINF:-1 group-title="-",tdp HD
 http://79.112.79.166:8069/udp/239.255.4.78:1234
 
 #EXTINF:-1 group-title="-",neox
-http://79.112.79.166:8069/udp/239.10.20.13:1234
+http://79.112.79.166:8069/udp/239.250.4.3:1234
 
 #EXTINF:-1 group-title="-",nova
-http://79.112.79.166:8069/udp/239.10.20.14:1234
+http://79.112.79.166:8069/udp/239.250.4.4:1234
 
 #EXTINF:-1 group-title="-",mega
-http://79.112.79.166:8069/udp/239.10.20.42:1234
+http://92.176.119.180:2095/play/a1ei
 
 #EXTINF:-1 group-title="-",BOM
-http://79.112.79.166:8069/udp/239.255.3.4:1234
+http://92.176.119.180:2095/play/a1fu
 
 #EXTINF:-1 group-title="-",Boing
 http://79.112.79.166:8069/udp/239.10.20.50:1234
 
 #EXTINF:-1 group-title="-",DMAX
-http://79.112.79.166:8069/udp/239.250.3.3:1234
+http://92.176.119.180:2095/play/a16r
 
 #EXTINF:-1 group-title="-",Divinity
 http://79.112.79.166:8069/udp/239.10.20.18:1234
 
 #EXTINF:-1 group-title="-",Energy
-http://79.112.79.166:8069/udp/239.10.20.49:1234
+http://92.176.119.180:2095/play/a17a
 
 #EXTINF:-1 group-title="-",FDF
-http://79.112.79.166:8069/udp/239.10.20.17:1234
+http://92.176.119.180:2095/play/a15w
+
+#EXTINF:-1 group-title="-",PARAMOUNT NETWORK
+http://92.176.119.180:2095/play/a1ez
 
 #EXTINF:-1 group-title="-",Realmadrid TV HD
-http://79.112.79.166:8069/udp/239.10.20.37:1234
+http://92.176.119.180:2095/play/a1et
 
 #EXTINF:-1 group-title="-",SQUIRREL
-http://79.112.79.166:8069/udp/239.10.20.51:1234
+http://92.176.119.180:2095/play/a1ey
 
 #EXTINF:-1 group-title="-",SQUIRREL2
-http://79.112.79.166:8069/udp/239.10.20.52:1234
+http://92.176.119.180:2095/play/a1g3
 
 #EXTINF:-1 group-title="-",TEN
 http://79.112.79.166:8069/udp/239.10.20.38:1234
 
 #EXTINF:-1 group-title="-",TRECE
-http://79.112.79.166:8069/udp/239.10.20.46:1234
+http://92.176.119.180:2095/play/a1em
 
 #EXTINF:-1 group-title="-",VEO 7
-http://79.112.79.166:8069/udp/239.255.4.57:1234
+http://79.112.79.166:8069/udp/239.250.3.4:1234
 
 #EXTINF:-1,La 1 Notengoidealandia
 http://185.56.180.254:54545/udp/234.5.2.21:20000
@@ -195,13 +207,13 @@ http://185.56.180.254:54545/udp/234.5.2.125:20000
 http://185.56.180.254:54545/udp/234.5.2.106:20000
 
 #EXTINF:-1,TV3
-http://185.56.180.254:54545/udp/234.5.2.97:20000
+http://213.97.163.175:4022/udp/239.10.20.100:1234
 
 #EXTINF:-1,SX3/33
-http://185.56.180.254:54545/udp/234.5.2.116:20000
+http://213.97.163.175:4022/udp/239.10.20.102:1234
 
 #EXTINF:-1,Esport3
-http://185.56.180.254:54545/udp/234.5.2.117:20000
+http://213.97.163.175:4022/udp/239.10.20.103:1234
 
 #EXTINF:-1,12TValicante
 http://185.56.180.254:54545/udp/234.5.2.148:20000
@@ -268,6 +280,21 @@ http://185.56.180.254:54545/udp/239.1.2.60:1234
 
 #EXTINF:-1,VOX
 http://185.56.180.254:54545/udp/239.1.2.58:1234
+
+#EXTINF:-1,La 1 Cataluña
+http://213.97.163.175:4022/udp/239.10.20.5:1234
+
+#EXTINF:-1,La 2 / 2Cat
+http://213.97.163.175:4022/udp/239.10.20.8:1234
+
+#EXTINF:-1,3CatInfo
+http://213.97.163.175:4022/udp/239.10.20.101:1234
+
+#EXTINF:-1,24h Cataluña
+http://213.97.163.175:4022/udp/239.10.20.4:1234
+
+#EXTINF:-1,IB3 Global
+http://213.97.163.175:4022/udp/239.10.20.104:1234
 
 #EXTINF:-1,La 1 Madrid
 http://79.112.79.166:8069/udp/239.10.20.1:1234
