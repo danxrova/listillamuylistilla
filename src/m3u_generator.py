@@ -13,6 +13,7 @@ class M3UGenerator:
         preferred = [
             "la 1",
             "la 1 uhd",
+            "la 2 hd",
             "la 2 / 2cat",
             "antena 3",
             "cuatro",
