@@ -11,8 +11,8 @@ class M3UGenerator:
     def _reorder_channels_with_preference(self, channels: list) -> list:
         # User-requested preferred order (kept as written by the user)
         preferred = [
-            "la 1",
             "la 1 uhd",
+            "la 1",
             "la 2 hd",
             "la 2 / 2cat",
             "antena 3",
