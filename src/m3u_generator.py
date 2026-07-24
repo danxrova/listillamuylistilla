@@ -1,3 +1,6 @@
+import re
+
+
 class M3UGenerator:
     def __init__(self, output_path):
         self.output_path = output_path
@@ -67,6 +70,32 @@ class M3UGenerator:
 
         return ordered
 
+    def _set_tvg_chno(self, inf_line: str, chno: int) -> str:
+        """Insert or update the tvg-chno="N" attribute on an #EXTINF line.
+
+        - If tvg-chno already exists (e.g. it came from the source playlist),
+          its value is overwritten with the final position in the output list.
+        - Otherwise, the attribute is inserted right after the duration field
+          (#EXTINF:-1), keeping the rest of the attributes and the trailing
+          ",Channel Name" untouched.
+        """
+        if re.search(r'tvg-chno="[^"]*"', inf_line, re.IGNORECASE):
+            return re.sub(
+                r'tvg-chno="[^"]*"',
+                f'tvg-chno="{chno}"',
+                inf_line,
+                count=1,
+                flags=re.IGNORECASE
+            )
+
+        match = re.match(r'(#EXTINF:-?\d+(?:\.\d+)?)(.*)', inf_line)
+        if not match:
+            # Unexpected format: leave the line untouched rather than break it
+            return inf_line
+
+        prefix, rest = match.group(1), match.group(2)
+        return f'{prefix} tvg-chno="{chno}"{rest}'
+
     def generate(self, channels):
         # Reorder channels so the user's preferred channels appear first (if present)
         try:
@@ -77,9 +106,12 @@ class M3UGenerator:
 
         with open(self.output_path, 'w', encoding='utf-8') as f:
             f.write("#EXTM3U\n")
+            chno = 0
             for channel in channels:
                 if channel.get('best_stream') and channel['best_stream']['available']:
-                    f.write(f"{channel['inf']}\n")
+                    chno += 1
+                    inf_line = self._set_tvg_chno(channel['inf'], chno)
+                    f.write(f"{inf_line}\n")
                     f.write(f"{channel['best_stream']['url']}\n\n")
                 else:
                     # Optional: handle channels with no valid streams
