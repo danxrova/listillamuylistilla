@@ -1,34 +1,241 @@
 #EXTM3U
-#EXTINF:-1 tvg-chno="1" tvg-logo="http://ahm.red/tdt/logos/DMAX.png" tvg-id="747f489f56e36df80688e86caa21ef93",DMAX
+#EXTINF:-1 tvg-chno="1" tvg-id="6e538ac0df18fd92a4d78bb4c3d10d86",LA 1
+http://79.116.204.96:9981/stream/channelid/574224377?profile=pass
+
+#EXTINF:-1 tvg-chno="2" tvg-id="950f921db08eba90fa6cc2508a147664",LA 2
+http://79.116.204.96:9981/stream/channelid/653594990?profile=pass
+
+#EXTINF:-1 tvg-chno="3" tvg-id="f84ba4b52338232d0187e57a4c3d80ab",ANTENA 3
+http://89.35.227.169:9981/stream/channelid/899959800?ticket=86FB8F460EF057B0172C879426AA590DB50A53E3&profile=pass
+
+#EXTINF:-1 tvg-chno="4" tvg-id="2d93922b3d09f570faaa49f9caa23ac6",TELECINCO
+http://89.35.227.169:9981/stream/channelid/731026221?ticket=55DB498C6876F641157FFFAFAD8D8EFD692580C8&profile=pass
+
+#EXTINF:-1 tvg-chno="5" tvg-id="7c6d9a714317b89b9f8cabc6f9607071",LA SEXTA
+http://89.35.227.169:9981/stream/channelid/1905945980?ticket=8021504AA5E0E8C7672F5B72C7335F46E76905B5&profile=pass
+
+#EXTINF:-1 tvg-chno="6" tvg-id="38720f506af9ba5eebc2998d62c42ae4",Neox
+http://89.35.227.169:9981/stream/channelid/1917843504?ticket=AC405E804C9D38B60C5082DDD5E014BF6EDED59B&profile=pass
+
+#EXTINF:-1 tvg-chno="7" tvg-id="3d36d3657f46fca12475841b33f4d098",Mega
+http://79.116.204.96:9981/stream/channelid/947373153?profile=pass
+
+#EXTINF:-1 tvg-chno="8" tvg-id="3f5223ed44536fb79c7ccb488ef12ce9",CLAN  TVE
+http://89.35.227.169:9981/stream/channelid/1831031359?ticket=3BFFB6929F379B0CC6E60B7B235768AA593E5AE7&profile=pass
+
+#EXTINF:-1 tvg-chno="9" tvg-id="775413142c4cbe065521a6ccca0f7f82",24 HORAS
+http://89.35.227.169:9981/stream/channelid/336811127?ticket=72D541581EBDAC85852A7C2675F1828A951BF168&profile=pass
+
+#EXTINF:-1 tvg-chno="10" tvg-id="ed362029c8dec3fff876426ba081e702",BOING
+http://79.116.204.96:9981/stream/channelid/2096809774?profile=pass
+
+#EXTINF:-1 tvg-chno="11" tvg-id="44d2c6012ad7071af98ab5f1f522937a",Energy
+http://79.116.204.96:9981/stream/channelid/926459827?profile=pass
+
+#EXTINF:-1 tvg-chno="12" tvg-id="7e1fe85faf641e3a3dd8667a3fa535f1",TRECE
+http://79.116.204.96:9981/stream/channelid/918054335?profile=pass
+
+#EXTINF:-1 tvg-chno="13" tvg-logo="http://ahm.red/tdt/logos/DMAX.png" tvg-id="747f489f56e36df80688e86caa21ef93",DMAX
 http://80.30.178.6:9981/stream/channelid/1325525426?ticket=ADBBDF7DC52C14672A82A5EBA9F273482F2057D8&profile=pass
 
-#EXTINF:-1 tvg-chno="2" tvg-logo="http://ahm.red/tdt/logos/VEO%207.png" tvg-id="4bcda3127813b2c73bbd2cdbf18047d5",VEO 7
+#EXTINF:-1 tvg-chno="14" tvg-logo="http://ahm.red/tdt/logos/VEO%207.png" tvg-id="4bcda3127813b2c73bbd2cdbf18047d5",VEO 7
 http://80.30.178.6:9981/stream/channelid/1318322603?ticket=1C299EE3D0094CB6BD8DD9C02625A888F57DE337&profile=pass
 
-#EXTINF:-1 tvg-chno="3" tvg-logo="http://ahm.red/tdt/logos/SQUIRREL.png" tvg-id="878df240048f0a3c2a409c7406b13b28",SQUIRREL
+#EXTINF:-1 tvg-chno="15" tvg-logo="http://ahm.red/tdt/logos/SQUIRREL.png" tvg-id="878df240048f0a3c2a409c7406b13b28",SQUIRREL
 http://80.30.178.6:9981/stream/channelid/1936561556?ticket=AA2526F6F1B34C287BAAE190DEFE1C5D4F310DB6&profile=pass
 
-#EXTINF:-1 tvg-chno="4" tvg-logo="http://ahm.red/tdt/logos/SQUIRREL2.png" tvg-id="a063cc7987ab38899b36d898cb373e56",SQUIRREL2
+#EXTINF:-1 tvg-chno="16" tvg-logo="http://ahm.red/tdt/logos/SQUIRREL2.png" tvg-id="a063cc7987ab38899b36d898cb373e56",SQUIRREL2
 http://80.30.178.6:9981/stream/channelid/2110551869?ticket=C3040E5BEE05995A5D0E15B9B7A343C012EDD40A&profile=pass
 
-#EXTINF:-1 tvg-chno="5" tvg-id="24cd8d863d3423e6ed1bfa183b3e6dad",1“ FEDERACION
-http://89.35.227.169:9981/stream/channelid/372548435?ticket=4C776CDBD24FD1B161CE24C71AFEE06FBC5250F4&profile=pass
+#EXTINF:-1 tvg-chno="17" tvg-id="24cd8d863d3423e6ed1bfa183b3e6dad",1“ FEDERACION
+http://89.35.227.169:9981/stream/channelid/109956388?ticket=910902D3BDAE87A62913350FB5FB6AB0C1CD8BF7&profile=pass
 
-#EXTINF:-1 tvg-chno="6" tvg-id="3dc3da2dcef11619b0adc48159be2130",M+ ACCI©N
-http://89.35.227.169:9981/stream/channelid/946710700?ticket=FDF9CF545A4E12C95B3EB4355E4F03DA939259BF&profile=pass
+#EXTINF:-1 tvg-chno="18" tvg-id="2e32dc1223612f219feeb911f477eac5",AXN MOVIES
+http://89.35.227.169:9981/stream/channelid/316420654?ticket=2615505FE19417CCF41FD8F23D0141EFCE969E67&profile=pass
 
-#EXTINF:-1 tvg-chno="7" tvg-id="b75d5fe46ebeb0883839cdae745a4723",M+ DRAMA
-http://89.35.227.169:9981/stream/channelid/515893347?ticket=202D87903E1216A4C71500FB66C1BFBD215FE805&profile=pass
+#EXTINF:-1 tvg-chno="19" tvg-id="59462be812ed2c33553733526b30df12",BBC HISTORY
+http://89.35.227.169:9981/stream/channelid/1747666521?ticket=FD71E3C828E27784F7D313666A92178C228ABB54&profile=pass
 
-#EXTINF:-1 tvg-chno="8" tvg-id="81c5386016b7b0b75389263ac43d7051",M+ LALIGA
-http://89.35.227.169:9981/stream/channelid/338368774?ticket=5CDCB9F84754B55F4E8C459976E4B9F994859F55&profile=pass
+#EXTINF:-1 tvg-chno="20" tvg-id="e49045e19c04f8260281650d89a1f426",BBC SERIES
+http://89.35.227.169:9981/stream/channelid/1631949028?ticket=94784BF4D49BD2DC203E9F31ABFD5E0BFA5ED922&profile=pass
 
-#EXTINF:-1 tvg-chno="9" tvg-id="be23311b05841caf3e7e7a3e54b85022",M+ LALIGA 2
-http://89.35.227.169:9981/stream/channelid/331988857?ticket=15A97080D33C4D559D352407E18094729F095D30&profile=pass
+#EXTINF:-1 tvg-chno="21" tvg-id="e1cd397578cfd0c71c317efad565fd56",CANAL SUR A.
+http://89.35.227.169:9981/stream/channelid/1966722529?ticket=26D0B0AC5DBC1BD6263C7CE5E60FBBD456FFDD94&profile=pass
 
-#EXTINF:-1 tvg-chno="10" tvg-id="50580e4c9ecff488f57569c655928ca5",M+ Originales
-http://89.35.227.169:9981/stream/channelid/1413927855?ticket=C34558B7D12BE8CB61F9E21709238F2269111EB4&profile=pass
+#EXTINF:-1 tvg-chno="22" tvg-id="7b687b8a10e11e5e7c4890147c7a2e03",COMEDY CENTRAL
+http://89.35.227.169:9981/stream/channelid/175859835?ticket=947BDB4E525AB89198457921218E127171AE1643&profile=pass
 
-#EXTINF:-1 tvg-chno="11" tvg-id="5fba1787695029bebaff32864844582d",M+ VAMOSHD
-http://89.35.227.169:9981/stream/channelid/118995551?ticket=3A7DC84E29F7B18F7ED91CFDC61DC32FC8C92505&profile=pass
+#EXTINF:-1 tvg-chno="23" tvg-id="fb4e6d35ad446f3975ed5dced2b01f50",COSMO
+http://89.35.227.169:9981/stream/channelid/896356091?ticket=8F1B7334BDF125F4C10CDA3C380A4136E8239F6D&profile=pass
+
+#EXTINF:-1 tvg-chno="24" tvg-id="a2e8042033cbbf3c91ed9fe0b51b0888",DAZN 2
+http://89.35.227.169:9981/stream/channelid/537192610?ticket=A81D548AE0E5914D86273CEA2C5A2B18230C785D&profile=pass
+
+#EXTINF:-1 tvg-chno="25" tvg-id="5e18fb71b1b75142e878c4702c2b7b17",DAZN 3
+http://89.35.227.169:9981/stream/channelid/1912281182?ticket=6882EB634A461D1F9AD4B0582452F5A8B4AFEECB&profile=pass
+
+#EXTINF:-1 tvg-chno="26" tvg-id="d52e9b2d9cb7f78d3883c58048267e42",DAZN 4
+http://89.35.227.169:9981/stream/channelid/765144789?ticket=63085C5FFBC877EA2D461E50F64A83FF565862D6&profile=pass
+
+#EXTINF:-1 tvg-chno="27" tvg-id="fcc0722bb3e6ccde2074355448af6426",DAZN F1
+http://89.35.227.169:9981/stream/channelid/2041111242?ticket=EFC5EDB841038C4316A19709719EB7D4CB3A53ED&profile=pass
+
+#EXTINF:-1 tvg-chno="28" tvg-id="5d1910866b5aae20a54f2f3e8b68966f",DAZN LALIGA
+http://89.35.227.169:9981/stream/channelid/101718365?ticket=36729D0C9E10D2B4DA9116F51C0CA61912795C5F&profile=pass
+
+#EXTINF:-1 tvg-chno="29" tvg-id="b6c42c9123d75db4bf241aae5131bd54",DAZN LALIGA 2
+http://89.35.227.169:9981/stream/channelid/288146614?ticket=909CCB637B1C20D6401A3C67F4D43D30F79DD175&profile=pass
+
+#EXTINF:-1 tvg-chno="30" tvg-id="497feb60bb526420167edb04986712fd",DAZNBaloncesto
+http://89.35.227.169:9981/stream/channelid/1626046281?ticket=9AFE4E25F60C3FF4E4537D3764B25B64439CF8BD&profile=pass
+
+#EXTINF:-1 tvg-chno="31" tvg-id="9a53887e210ae048ba4f7e73da34715b",DAZNBaloncesto3
+http://89.35.227.169:9981/stream/channelid/2122863514?ticket=E6A2B1BD7C9AAD64F9AC0DA7D55D94D3DB0124E3&profile=pass
+
+#EXTINF:-1 tvg-chno="32" tvg-id="930578791e9eb90087062ccbba2be988",Disney Channel
+http://89.35.227.169:9981/stream/channelid/2037908883?ticket=C82AB02006C581AF5157F71A26E9E0C7606D1296&profile=pass
+
+#EXTINF:-1 tvg-chno="33" tvg-id="9cfdffd586f188d6a6dda98c433ff44f",EUROSPORT 2
+http://89.35.227.169:9981/stream/channelid/1442839964?ticket=7F4B3244FFB7DA257B3DE44D01541CF0AC71923C&profile=pass
+
+#EXTINF:-1 tvg-chno="34" tvg-id="bcdd8979159a79d6b76058a3b5dda6e1",EUROSPORT1HD
+http://89.35.227.169:9981/stream/channelid/2039078332?ticket=750CCD670F47F19106A221536E59F35F09098A81&profile=pass
+
+#EXTINF:-1 tvg-chno="35" tvg-id="9c4809961b30a91513e3c04915bc7113",LALIGA TV HYPERMOTION
+http://89.35.227.169:9981/stream/channelid/1920674604?ticket=0246BCA6A6B5B8673E6E1A9B64E0F7901A8C7AC8&profile=pass
+
+#EXTINF:-1 tvg-chno="36" tvg-id="cad1d3615778b8825eed7d1beb0644a8",LALIGA TV HYPERMOTION 2
+http://89.35.227.169:9981/stream/channelid/1641271754?ticket=D4CACE326BFE46854D50EDA59C99F699F61C0C28&profile=pass
+
+#EXTINF:-1 tvg-chno="37" tvg-id="65ef322df32d2d23d8fd056f0a7e0005",LALIGA TV HYPERMOTION 3
+http://89.35.227.169:9981/stream/channelid/758312805?ticket=341DD6815DECFCFD850D38C8811E9D50A4CAF35B&profile=pass
+
+#EXTINF:-1 tvg-chno="38" tvg-id="3dc3da2dcef11619b0adc48159be2130",M+ ACCI©N
+http://89.35.227.169:9981/stream/channelid/769311549?ticket=2631A8B0EEF7E5CF766802751A361CC78441D9B0&profile=pass
+
+#EXTINF:-1 tvg-chno="39" tvg-id="e8170e7f69cbc0fb998c0409b9eed608",M+ COMEDIA
+http://89.35.227.169:9981/stream/channelid/2131630056?ticket=488C7C4C4B9A6DA2A1638A87FB1B4126869B9E0D&profile=pass
+
+#EXTINF:-1 tvg-chno="40" tvg-id="a1b7e9e5172ad127d469964ddc06aaf5",M+ Documentales
+http://89.35.227.169:9981/stream/channelid/1709815713?ticket=55E7163F79E47A7DC76251C3A6454C6D3FD9DA31&profile=pass
+
+#EXTINF:-1 tvg-chno="41" tvg-id="b75d5fe46ebeb0883839cdae745a4723",M+ DRAMA
+http://89.35.227.169:9981/stream/channelid/1683971511?ticket=BF241BDA04F77F2712A84F66D819C711138C6CBA&profile=pass
+
+#EXTINF:-1 tvg-chno="42" tvg-id="36665769ea357b5637eee4ed867b2531",M+ ESTRENOS
+http://89.35.227.169:9981/stream/channelid/1221107496?ticket=83A01C10EC0C8AAD260894012FB2F8E485A023FB&profile=pass
+
+#EXTINF:-1 tvg-chno="43" tvg-id="a353049bcc8ef3f4055c830a4141e450",M+ Indie
+http://89.35.227.169:9981/stream/channelid/1104405398?ticket=68D6B23AAFF09186B5CF672B75808F1531E78687&profile=pass
+
+#EXTINF:-1 tvg-chno="44" tvg-id="be23311b05841caf3e7e7a3e54b85022",M+ LALIGA 2
+http://89.35.227.169:9981/stream/channelid/456205246?ticket=B4C8ABB400B49ADE7D686D73DB969BCF709352FC&profile=pass
+
+#EXTINF:-1 tvg-chno="45" tvg-id="742e8ca68ecef2b8f5b1a1e73ccc31ba",M+ LALIGA 3
+http://89.35.227.169:9981/stream/channelid/646721140?ticket=8A8073F188A328DB98AA42A1D1666C193888E175&profile=pass
+
+#EXTINF:-1 tvg-chno="46" tvg-id="a6574bf6f8f36e286e5ed92c6e0c1baf",M+ ORGULLO
+http://89.35.227.169:9981/stream/channelid/1984649126?ticket=CB723798A5C700A1B12DFEA50DB554763A7A928F&profile=pass
+
+#EXTINF:-1 tvg-chno="47" tvg-id="65817490ad6f216e18d092d6cce4c487",M+ VAMOS 2
+http://89.35.227.169:9981/stream/channelid/169997480?ticket=5DF7BD3D943B3BE3E45F130925F0C90C40C02C51&profile=pass
+
+#EXTINF:-1 tvg-chno="48" tvg-id="aa07153ed4e63743ab40efdfd1a50fba",M+Baloncesto
+http://89.35.227.169:9981/stream/channelid/1041565610?ticket=EAD2119E213AC47A606E17D554A0ADC6D23EE827&profile=pass
+
+#EXTINF:-1 tvg-chno="49" tvg-id="973dc3a1a6346a0a465f3b4680789d51",M+Baloncesto2
+http://89.35.227.169:9981/stream/channelid/566443415?ticket=BB329C7E561CDD9F1CC6308ADFB89359D2B397A3&profile=pass
+
+#EXTINF:-1 tvg-chno="50" tvg-id="66e9caca97dd1b894c1c9d3fb3cb2fa6",M+BaloncestoHD
+http://89.35.227.169:9981/stream/channelid/1254812006?ticket=C4D36B47276691A5C7BCF69C2E5F3F750C4DD011&profile=pass
+
+#EXTINF:-1 tvg-chno="51" tvg-id="56382efaad45004270ce0a270f693037",M+DEPORTES2HD
+http://89.35.227.169:9981/stream/channelid/2049849430?ticket=89659A1885AE4BCAF166C107283CB37175FD8EA8&profile=pass
+
+#EXTINF:-1 tvg-chno="52" tvg-id="ebd0ce2725e53ae56fdf52091f8b2ef4",M+DEPORTES3
+http://89.35.227.169:9981/stream/channelid/667865323?ticket=1622D53B9109C2D1AD20D0DC0421EAEA64D1D5E5&profile=pass
+
+#EXTINF:-1 tvg-chno="53" tvg-id="f29bac01cd75f6351d6cc70d7ccffe70",M+DEPORTES4
+http://89.35.227.169:9981/stream/channelid/28089330?ticket=686A50F35333F65FF44EF8CD2A57C8F25C03BE13&profile=pass
+
+#EXTINF:-1 tvg-chno="54" tvg-id="c7eb830cc337addfd75e7cfad2e7b7c5",M+DEPORTES5
+http://89.35.227.169:9981/stream/channelid/209972167?ticket=0F953780DCE3D822F30B8684DD117735F49586D9&profile=pass
+
+#EXTINF:-1 tvg-chno="55" tvg-id="52204769bdc0db8551c3a16bf4ccf890",M+DEPORTES6
+http://89.35.227.169:9981/stream/channelid/1766269010?ticket=ED5192F3B7B565B020C1B1FCD7C41DDAE4B6F161&profile=pass
+
+#EXTINF:-1 tvg-chno="56" tvg-id="60ae9d1812061bff79fe53d428a4b466",M+DEPORTES8
+http://89.35.227.169:9981/stream/channelid/412986976?ticket=ECE61BAF70C790679BBB4CC9A23935684E4B7A2D&profile=pass
+
+#EXTINF:-1 tvg-chno="57" tvg-id="ebe70b77e17922d5a1702f5730592ae8",M+LCAMPEON2
+http://89.35.227.169:9981/stream/channelid/1997268971?ticket=C58554D8709368847F15443E1492BF29BDF431AA&profile=pass
+
+#EXTINF:-1 tvg-chno="58" tvg-id="16f12c01b7a962d88eedf314c9c93cf4",M+LCAMPEON3
+http://89.35.227.169:9981/stream/channelid/19722518?ticket=1E07C0EC77E6B7150978A005CFB14CCB8A2B034A&profile=pass
+
+#EXTINF:-1 tvg-chno="59" tvg-id="59d884f2dfca5b40422d59103a3b75e5",M+LCAMPEON4
+http://89.35.227.169:9981/stream/channelid/1921308761?ticket=AA0BA583E818C9B0706E1F75F651AAAC4C1F3FA2&profile=pass
+
+#EXTINF:-1 tvg-chno="60" tvg-id="645fced402df4de537bca04c19df24e8",M+LCAMPEON5
+http://89.35.227.169:9981/stream/channelid/1422810980?ticket=744B852590EE931688DD817FE06FB198366888C6&profile=pass
+
+#EXTINF:-1 tvg-chno="61" tvg-id="15c0b555723508c7d697d62d89f84802",M+LCAMPEONES
+http://89.35.227.169:9981/stream/channelid/1437974549?ticket=C848EA4BBA1963EE49313B0998B838262B8F6149&profile=pass
+
+#EXTINF:-1 tvg-chno="62" tvg-id="5fd9828442c34ec8d3a5a81a23fa26e5",MEZZO
+http://89.35.227.169:9981/stream/channelid/75684191?ticket=D4D8C279EE87D4251E1F9F73F4559E1945AC350C&profile=pass
+
+#EXTINF:-1 tvg-chno="63" tvg-id="ca5b81b61532346d5f2f1ba4303e402d",Movistar Plus
+http://89.35.227.169:9981/stream/channelid/1709733514?ticket=5543CB9D45772B8215147401B75C5FBF2200C128&profile=pass
+
+#EXTINF:-1 tvg-chno="64" tvg-id="ea656985a2af8503da62a717ba9329a3",MULTIDEPORTE
+http://89.35.227.169:9981/stream/channelid/90793450?ticket=AB9C8E0151B941B027BBC9616F50CC9CDB4D3689&profile=pass
+
+#EXTINF:-1 tvg-chno="65" tvg-id="ee9d3c61f066082947a80f7719feff2e",NAT GEOGRAPH
+http://89.35.227.169:9981/stream/channelid/1631362542?ticket=6708398C51B07240EA0F53BA3E798AC2A8A87F30&profile=pass
+
+#EXTINF:-1 tvg-chno="66" tvg-id="fa5efeb30696366ef621467c35ab4edb",NICK JR
+http://89.35.227.169:9981/stream/channelid/872308474?ticket=59716A8348C2BCE33AE59CB62476C34AEEFAB16B&profile=pass
+
+#EXTINF:-1 tvg-chno="67" tvg-id="129026a3ee8eeef02bf2e65a77a2fcfb",Service01
+http://89.35.227.169:9981/stream/channelid/589729810?ticket=DAAFB25FD3C05998786616B67F8F9187ACE32269&profile=pass
+
+#EXTINF:-1 tvg-chno="68" tvg-id="ce088273610a3b9aa865ae85aab96735",SYFY
+http://89.35.227.169:9981/stream/channelid/1937901774?ticket=E9ADCB9462763509F47EA4AB97F03976279876B8&profile=pass
+
+#EXTINF:-1 tvg-chno="69" tvg-id="67829fe1dc7d1cbdfc8714cee5f01ce9",TCM
+http://89.35.227.169:9981/stream/channelid/1637843559?ticket=5029F5455E0A66778EFE3571700BE121CEA9B032&profile=pass
+
+#EXTINF:-1 tvg-chno="70" tvg-id="9479b13a1eb6ccbc83f8353b1a5ba70f",TELEDEPORTE
+http://89.35.227.169:9981/stream/channelid/984709524?ticket=EFB00A3AB891E266E39D8A82E3548108A393B183&profile=pass
+
+#EXTINF:-1 tvg-chno="71" tvg-id="ebfce12f85941e710fd959b07202e8c9",TRT WORLD HD
+http://89.35.227.169:9981/stream/channelid/803339499?ticket=31CAE235A0297AC0713311767EEB44E7A8ED805F&profile=pass
+
+#EXTINF:-1 tvg-chno="72" tvg-id="6a09218b266643e9800a16011745063e",TV Trwam
+http://89.35.227.169:9981/stream/channelid/186714474?ticket=33FD9256B741E7C196DDECA82EA415841A1F1304&profile=pass
+
+#EXTINF:-1 tvg-chno="73" tvg-id="b3f691a0fcdfebf6cdd19d1afd05f964",TV-3 Cataluna HD
+http://89.35.227.169:9981/stream/channelid/910856074?ticket=A5767494B4E55B9AE1184009CBC58F50237ED568&profile=pass
+
+#EXTINF:-1 tvg-chno="74" tvg-id="1b1b0ed4e3162edc22432babf497e2f1",TV5 MONDE EUROPE HD
+http://89.35.227.169:9981/stream/channelid/1410210587?ticket=8710942A7DADEDE47412EE8B93B78B244D90437A&profile=pass
+
+#EXTINF:-1 tvg-chno="75" tvg-id="f1a857705936e4c1dd5b6b7d98fb65fe",WARNERTV
+http://89.35.227.169:9981/stream/channelid/1884793073?ticket=6E0886AC0D71DF017FB29B6FFB9DAACDFC1B706B&profile=pass
+
+#EXTINF:-1 tvg-chno="76" tvg-logo="http://ahm.red/tdt/logos/BOM%20RADIO.png" tvg-id="88e5d8d83857be79e1a05cdca8daf6d1",BOM RADIO
+http://79.116.204.96:9981/stream/channelid/1490609544?profile=pass
+
+#EXTINF:-1 tvg-chno="77" tvg-logo="http://ahm.red/tdt/logos/CADENA%20100.png" tvg-id="d320bf05e1483fe93b467b7c0a41ce14",CADENA 100
+http://79.116.204.96:9981/stream/channelid/96411859?profile=pass
+
+#EXTINF:-1 tvg-chno="78" tvg-logo="http://ahm.red/tdt/logos/COPE.png" tvg-id="d64988b1c29dbb2d897d0239b3403479",COPE
+http://79.116.204.96:9981/stream/channelid/831015382?profile=pass
+
+#EXTINF:-1 tvg-chno="79" tvg-logo="http://ahm.red/tdt/logos/Melodia%20FM.png" tvg-id="29e5394c8974c45639d03def7413f0e2",Melodia FM
+http://79.116.204.96:9981/stream/channelid/1278862633?profile=pass
+
+#EXTINF:-1 tvg-chno="80" tvg-logo="http://ahm.red/tdt/logos/R%60adio%204%20RNE.png" tvg-id="176e47f08547f5109f5140b3e2d72829",Ràdio 4 RNE
+http://79.116.204.96:9981/stream/channelid/1883729431?profile=pass
 
