@@ -177,7 +177,7 @@
 | BOM RADIO | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1490609544?profile=pass | N/A | 1 | max-conn=2 |
 | CADENA 100 | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/96411859?profile=pass | N/A | 1 | max-conn=2 |
 | COPE | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/831015382?profile=pass | N/A | 1 | max-conn=2 |
-| DMAX | ✅ OK | http://80.30.178.6:9981/stream/channelid/1325525426?ticket=ADBBDF7DC52C14672A82A5EBA9F273482F2057D8&profile=pass | 0.337s | 2 | max-conn=2 |
+| DMAX | ✅ OK | http://80.30.178.6:9981/stream/channelid/1325525426?ticket=ADBBDF7DC52C14672A82A5EBA9F273482F2057D8&profile=pass | 0.344s | 2 | max-conn=2 |
 | EUROPA FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/394698846?profile=pass | N/A | 1 | max-conn=2 |
 | La 8 Mediterraneo HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1757567788?profile=pass | N/A | 1 | max-conn=2 |
 | Melodia FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1278862633?profile=pass | N/A | 1 | max-conn=2 |
@@ -188,10 +188,10 @@
 | RNE Valencia | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1142046740?profile=pass | N/A | 1 | max-conn=2 |
 | Rock FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/857012482?profile=pass | N/A | 1 | max-conn=2 |
 | Ràdio 4 RNE | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1883729431?profile=pass | N/A | 1 | max-conn=2 |
-| SQUIRREL | ✅ OK | http://80.30.178.6:9981/stream/channelid/1936561556?ticket=AA2526F6F1B34C287BAAE190DEFE1C5D4F310DB6&profile=pass | 0.302s | 2 | max-conn=2 |
-| SQUIRREL2 | ✅ OK | http://80.30.178.6:9981/stream/channelid/2110551869?ticket=C3040E5BEE05995A5D0E15B9B7A343C012EDD40A&profile=pass | 0.339s | 2 | max-conn=2 |
+| SQUIRREL | ✅ OK | http://80.30.178.6:9981/stream/channelid/1936561556?ticket=AA2526F6F1B34C287BAAE190DEFE1C5D4F310DB6&profile=pass | 0.286s | 2 | max-conn=2 |
+| SQUIRREL2 | ✅ OK | http://80.30.178.6:9981/stream/channelid/2110551869?ticket=C3040E5BEE05995A5D0E15B9B7A343C012EDD40A&profile=pass | 0.336s | 2 | max-conn=2 |
 | tdp HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1882385423?profile=pass | N/A | 2 | max-conn=2 |
-| VEO 7 | ✅ OK | http://80.30.178.6:9981/stream/channelid/1318322603?ticket=1C299EE3D0094CB6BD8DD9C02625A888F57DE337&profile=pass | 0.347s | 2 | max-conn=2 |
+| VEO 7 | ✅ OK | http://80.30.178.6:9981/stream/channelid/1318322603?ticket=1C299EE3D0094CB6BD8DD9C02625A888F57DE337&profile=pass | 0.332s | 2 | max-conn=2 |
 | 7TV CORDOBA | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/832901570?ticket=0975DC310D669C509B9CCB95A20EBE6ABD17BC6D&profile=pass | N/A | 1 | max-conn=2 |
 | A3Series | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/299281948?ticket=AE1930188ADB1705F685DE9C8F00224CC71E892C&profile=pass | N/A | 1 | max-conn=2 |
 | AndaluciaTV | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/2126779221?ticket=CFD86FACA4F07BBAF16BA3BA7CBAE07285E8D18A&profile=pass | N/A | 1 | max-conn=2 |
