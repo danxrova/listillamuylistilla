@@ -2,12 +2,74 @@
 
 | Canal | Estado | Mejor URL | Latencia | Candidatos | Límite conn. |
 | --- | --- | --- | --- | --- | --- |
+| 24h HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.4:1234 | 0.163s | 3 | sin límite |
+| 8madrid TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.59:1234 | 0.175s | 1 | sin límite |
+| Antena 3 | ✅ OK | http://79.116.29.121:8069/udp/239.250.4.1:1234 | 0.163s | 7 | sin límite |
+| BOM | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.4:1234 | 0.165s | 3 | sin límite |
+| BOM RADIO | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.58:1234 | 0.174s | 2 | sin límite |
+| BeMad tv HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.36:1234 | 0.177s | 2 | sin límite |
+| Boing | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.50:1234 | 0.166s | 5 | sin límite |
+| CADENA 100 | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.56:1234 | 0.167s | 3 | sin límite |
+| COPE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.47:1234 | 0.177s | 2 | sin límite |
+| COPE MAS | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.63:1234 | 0.178s | 1 | sin límite |
+| Clan HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.21:1234 | 0.177s | 3 | sin límite |
+| Cuatro HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.20:1234 | 0.167s | 6 | sin límite |
+| DIAL | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.34:1234 | 0.178s | 1 | sin límite |
+| DKISS | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.28:1234 | 0.177s | 3 | sin límite |
+| DMAX | ✅ OK | http://79.116.29.121:8069/udp/239.250.3.3:1234 | 0.173s | 4 | sin límite |
+| Disney Channel | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.51:1234 | 0.173s | 2 | sin límite |
+| Divinity | ✅ OK | http://79.116.29.121:8069/udp/239.250.5.4:1234 | 0.175s | 4 | sin límite |
+| Déjate TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.68:1234 | 0.165s | 1 | sin límite |
+| EL Toro TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.61:1234 | 0.163s | 1 | sin límite |
+| EUROPA FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.44:1234 | 0.164s | 2 | sin límite |
+| Energy | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.49:1234 | 0.163s | 5 | sin límite |
+| FDF | ✅ OK | http://79.116.29.121:8069/udp/239.250.5.3:1234 | 0.163s | 4 | sin límite |
+| GOL PLAY HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.54:1234 | 0.162s | 1 | sin límite |
+| HIT FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.30:1234 | 0.165s | 2 | sin límite |
+| HIT TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.62:1234 | 0.172s | 1 | sin límite |
+| Kiss FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.65:1234 | 0.165s | 2 | sin límite |
+| LA OTRA HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.53:1234 | 0.167s | 1 | sin límite |
+| LOS40 | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.33:1234 | 0.164s | 1 | sin límite |
+| LOS40 Classic | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.39:1234 | 0.167s | 1 | sin límite |
+| LOS40 Urban | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.40:1234 | 0.167s | 1 | sin límite |
+| La 1 HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.4:1234 | 0.165s | 6 | sin límite |
+| La 2 HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.77:1234 | 0.162s | 8 | sin límite |
+| MELODIA FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.45:1234 | 0.164s | 2 | sin límite |
+| MegaStar | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.64:1234 | 0.165s | 1 | sin límite |
+| ONDA CERO | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.43:1234 | 0.163s | 2 | sin límite |
+| ONDA MADRID | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.5:1234 | 0.164s | 1 | sin límite |
+| PARAMOUNT NETWORK | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.52:1234 | 0.163s | 1 | sin límite |
+| RADIO MARCA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.55:1234 | 0.163s | 2 | sin límite |
+| RADIO MARIA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.57:1234 | 0.165s | 2 | sin límite |
+| Radio 5 RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.7:1234 | 0.165s | 2 | sin límite |
+| Radio Clasica HQ RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.25:1234 | 0.164s | 1 | sin límite |
+| Radio Exterior RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.27:1234 | 0.163s | 1 | sin límite |
+| Radio Nacional de España | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.6:1234 | 0.164s | 2 | sin límite |
+| Radio3 HQ RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.26:1234 | 0.164s | 1 | sin límite |
+| Radiolé | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.41:1234 | 0.163s | 1 | sin límite |
+| Realmadrid TV HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.37:1234 | 0.163s | 1 | sin límite |
+| Rock FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.48:1234 | 0.164s | 2 | sin límite |
+| SER | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.32:1234 | 0.165s | 1 | sin límite |
+| SQUIRREL | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.82:1234 | 0.164s | 3 | sin límite |
+| SQUIRREL2 | ✅ OK | http://79.116.29.121:8069/udp/239.250.3.2:1234 | 0.164s | 3 | sin límite |
+| TEN | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.38:1234 | 0.167s | 2 | sin límite |
+| TRECE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.46:1234 | 0.164s | 5 | sin límite |
+| Telecinco HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.47:1234 | 0.164s | 6 | sin límite |
+| Telemadrid HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.1:1234 | 0.163s | 3 | sin límite |
+| Telemadrid HDR | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.2:1234 | 0.163s | 1 | sin límite |
+| VEO 7 | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.57:1234 | 0.163s | 4 | sin límite |
+| atreseries HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.35:1234 | 0.165s | 2 | sin límite |
+| esRadio | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.31:1234 | 0.166s | 1 | sin límite |
+| laSexta | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.11:1234 | 0.163s | 7 | sin límite |
+| mega HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.42:1234 | 0.163s | 4 | sin límite |
+| neox | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.13:1234 | 0.164s | 5 | sin límite |
+| nova | ✅ OK | http://79.116.29.121:8069/udp/239.250.4.4:1234 | 0.165s | 5 | sin límite |
+| tdp HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.23:1234 | 0.162s | 5 | sin límite |
 | 1“ FEDERACION | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/109956388?ticket=910902D3BDAE87A62913350FB5FB6AB0C1CD8BF7&profile=pass | N/A | 5 | max-conn=2 |
 | 24 HORAS | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/336811127?ticket=72D541581EBDAC85852A7C2675F1828A951BF168&profile=pass | N/A | 1 | max-conn=2 |
 | 3sat HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1945392337?ticket=0657D1430AD17474B5520FB2489CA87581F5018C&profile=pass | N/A | 1 | max-conn=2 |
 | Al Jazeera English HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1300426926?ticket=902364871BF50BDAF83B911F063935F58DBDC155&profile=pass | N/A | 1 | max-conn=2 |
 | Anewz | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1793094726?ticket=2CB7940DBDFD948EEACD02D70E7996E353388F63&profile=pass | N/A | 1 | max-conn=2 |
-| ANTENA 3 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/899959800?ticket=86FB8F460EF057B0172C879426AA590DB50A53E3&profile=pass | N/A | 3 | max-conn=2 |
 | Antig. ALQUILER G1 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1439936226?ticket=77FEB433A89E0000CE4FF259B9B69FBE9931CDE5&profile=pass | N/A | 1 | max-conn=2 |
 | ARAGON TV INT | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1678040578?ticket=274938A0130BB7637FA2D537B924FDF0FA508D34&profile=pass | N/A | 1 | max-conn=2 |
 | ARIRANG HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1568564253?ticket=930AE51E1455BCC619DBDAE310BF8306F2296967&profile=pass | N/A | 1 | max-conn=2 |
@@ -23,7 +85,6 @@
 | ASTRA/10847V/{PMT:1093} | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/674211185?ticket=85027F8489223C53BCBD5C473B56D6B8EEB9BB2E&profile=pass | N/A | 1 | max-conn=2 |
 | ASTRA/10847V/{PMT:1097} | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2062335500?ticket=A23CB22C18845DB0435D627B24F6196201BCDF1A&profile=pass | N/A | 1 | max-conn=2 |
 | ASTRA/10847V/{PMT:1098} | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/365687184?ticket=D96F364FFE15F3147B7FF80D2A96D7E16C9CA0CC&profile=pass | N/A | 1 | max-conn=2 |
-| Atreseries | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/931437337?ticket=2D69C95D342ECBCD26C082F4291CD6A7955491FF&profile=pass | N/A | 1 | max-conn=2 |
 | AXN | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1242766646?ticket=3F1265996630BEB268B6C2167AD9C4B91E5BCE4D&profile=pass | N/A | 1 | max-conn=2 |
 | AXN MOVIES | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/316420654?ticket=2615505FE19417CCF41FD8F23D0141EFCE969E67&profile=pass | N/A | 1 | max-conn=2 |
 | BabyTV | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/814037620?ticket=C6C22C0899C15C4F5D50E741679D42C1918A79C1&profile=pass | N/A | 1 | max-conn=2 |
@@ -36,19 +97,16 @@
 | BBC SERIES | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1631949028?ticket=94784BF4D49BD2DC203E9F31ABFD5E0BFA5ED922&profile=pass | N/A | 1 | max-conn=2 |
 | BBC TOP GEAR | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/653683917?ticket=70EA0BD2034A4394109D33BE4A51F17FB7FBBF80&profile=pass | N/A | 1 | max-conn=2 |
 | Be Mad | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/244438747?ticket=4FBFBCB0AD1CD681FEBDD6A702775AEAE4AD90D9&profile=pass | N/A | 2 | max-conn=2 |
-| BOING | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/689977069?ticket=0260CAB7BB84EC254439F22C8F01BDF23F6AE554&profile=pass | N/A | 4 | max-conn=2 |
 | CALLE 13 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/342428086?ticket=965F4B2F719B2C8B48491685108A369AE7AE1C9D&profile=pass | N/A | 1 | max-conn=2 |
 | CANAL SUR A. | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1966722529?ticket=26D0B0AC5DBC1BD6263C7CE5E60FBBD456FFDD94&profile=pass | N/A | 1 | max-conn=2 |
 | CAZAyPESCA HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/654256058?ticket=04FBE091B5917CF2E5E0D44648EFA125C606EEEC&profile=pass | N/A | 2 | max-conn=2 |
 | CGTN Documentary | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1603708322?ticket=9DEA9335AB1B8ACCB97CF262B9CF7615FC5ACCBE&profile=pass | N/A | 1 | max-conn=2 |
 | CGTN Francais | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1249017892?ticket=0175C23E681B1DECC831886B756242A577CBDFF3&profile=pass | N/A | 1 | max-conn=2 |
 | CGTN HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/242121993?ticket=22F589CAF1D664C3114CEA9773BFCF5C6647D13D&profile=pass | N/A | 1 | max-conn=2 |
-| Clan | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1784502167?ticket=455DF012C6B15833446A256F074BC1760291CDAD&profile=pass | N/A | 2 | max-conn=2 |
 | CLAN  TVE | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1831031359?ticket=3BFFB6929F379B0CC6E60B7B235768AA593E5AE7&profile=pass | N/A | 1 | max-conn=2 |
 | CNBC HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2138174182?ticket=9F258926695772A4185F336F82D66C916199DF0C&profile=pass | N/A | 1 | max-conn=2 |
 | COMEDY CENTRAL | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/175859835?ticket=947BDB4E525AB89198457921218E127171AE1643&profile=pass | N/A | 1 | max-conn=2 |
 | COSMO | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/896356091?ticket=8F1B7334BDF125F4C10CDA3C380A4136E8239F6D&profile=pass | N/A | 1 | max-conn=2 |
-| CUATRO | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/433743378?ticket=4DA7C95117436646023513DBB7A3F8084C1058AB&profile=pass | N/A | 3 | max-conn=2 |
 | Daystar Espanol | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1550102744?ticket=E14ED6A4AD5D606E6F28496A464815DD5A0F25D6&profile=pass | N/A | 1 | max-conn=2 |
 | DAZN 1 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/162287164?ticket=30FFA767D8ADB2ADB6FDAA69DAFCFA29A4CDB2C9&profile=pass | N/A | 1 | max-conn=2 |
 | DAZN 2 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/537192610?ticket=A81D548AE0E5914D86273CEA2C5A2B18230C785D&profile=pass | N/A | 1 | max-conn=2 |
@@ -63,25 +121,17 @@
 | DAZNBaloncesto3 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2122863514?ticket=E6A2B1BD7C9AAD64F9AC0DA7D55D94D3DB0124E3&profile=pass | N/A | 1 | max-conn=2 |
 | Die Neue Zeit TV | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1114432415?ticket=6DF2BF27B2B80C1C225157A9921ACB3298E6C657&profile=pass | N/A | 1 | max-conn=2 |
 | DISCOVERY | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1213878161?ticket=2A29D15B530B20E1A6039B2CC57872342B2A0CFF&profile=pass | N/A | 1 | max-conn=2 |
-| Disney Channel | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2037908883?ticket=C82AB02006C581AF5157F71A26E9E0C7606D1296&profile=pass | N/A | 1 | max-conn=2 |
-| DIVINITY | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1627067639?ticket=8F977364471614D590B6AD9E18A2EAFC4CCCD279&profile=pass | N/A | 2 | max-conn=2 |
-| DKISS | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1358083189?ticket=264F5CD13DA71FF539A115B8A91C19643D96AD0D&profile=pass | N/A | 2 | max-conn=2 |
 | DreamWorks | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/707695333?ticket=1AB2BD360AEB204A13CEE97854C8820B259C7370&profile=pass | N/A | 1 | max-conn=2 |
-| Energy | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/29807172?ticket=08EBAFFD03AC30025F56D4F7AF803B1353D0977C&profile=pass | N/A | 4 | max-conn=2 |
 | EURONEWS GERMAN SD PAL | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1853308614?ticket=D0914C6F45206515FDA0F83BDEE08ED5B2A3D723&profile=pass | N/A | 1 | max-conn=2 |
 | EUROSPORT 1 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1823292832?ticket=4063BDE4F6A611C79485064F578C47D6D8E08E00&profile=pass | N/A | 1 | max-conn=2 |
 | EUROSPORT 2 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1442839964?ticket=7F4B3244FFB7DA257B3DE44D01541CF0AC71923C&profile=pass | N/A | 1 | max-conn=2 |
 | EUROSPORT1HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2039078332?ticket=750CCD670F47F19106A221536E59F35F09098A81&profile=pass | N/A | 1 | max-conn=2 |
-| FDF | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1087751274?ticket=16A741A82473A3EE5DCEC016AE224487A8E07FB1&profile=pass | N/A | 2 | max-conn=2 |
 | France 24 (en Francais) | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2061644321?ticket=B892AAE23737DC6D1C27CD650F9CCE1F66CFCADE&profile=pass | N/A | 2 | max-conn=2 |
 | GOL | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1522912085?ticket=C7C29D479FDAA8C15BE800D76548299D8FAF4671&profile=pass | N/A | 1 | max-conn=2 |
 | GU | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/428010482?ticket=597D2DEC3644E9FFF21F98584D9177512EA82C0C&profile=pass | N/A | 1 | max-conn=2 |
 | GU FIL | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1636615117?ticket=30886BDBC3DEBB38B6567D788D42C4B7FA3A53AD&profile=pass | N/A | 1 | max-conn=2 |
 | KiKA HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/838172625?ticket=55FB459B4EBB489045EF461BEC023E40D71F709F&profile=pass | N/A | 2 | max-conn=2 |
-| LA 1 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1082807150?ticket=4660338DF7CDA3E5E503C6285ADF4FB4DFF827D6&profile=pass | N/A | 3 | max-conn=2 |
 | La 1 UHD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/316530279?ticket=0A3A803DD7BB6AE762385A956CEEA1744B2A8A7C&profile=pass | N/A | 1 | max-conn=2 |
-| LA 2 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/496111509?ticket=AE541D7ED0E6973DBD00A1A95955D0DF0CE56946&profile=pass | N/A | 4 | max-conn=2 |
-| LA SEXTA | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1905945980?ticket=8021504AA5E0E8C7672F5B72C7335F46E76905B5&profile=pass | N/A | 3 | max-conn=2 |
 | LALIGA TV BAR (HD-H2) | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/873896028?ticket=C4C93CDDD62C5F9AFE74B238115FACC1BDC7671D&profile=pass | N/A | 1 | max-conn=2 |
 | LALIGA TV BAR 5 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/255254237?ticket=2B6792E5138972089D59BD2C53057FC9F85E3E92&profile=pass | N/A | 1 | max-conn=2 |
 | LALIGA TV HYPERMOTION | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/369707164?ticket=343DE87481462DC950F81412318459D289509969&profile=pass | N/A | 2 | max-conn=2 |
@@ -129,7 +179,6 @@
 | M+LCAMPEONES | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1437974549?ticket=C848EA4BBA1963EE49313B0998B838262B8F6149&profile=pass | N/A | 1 | max-conn=2 |
 | M+VACACIONES | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/462791059?ticket=2E995A08A200AF5BF95D5A3945C8CEBE75888A9F&profile=pass | N/A | 1 | max-conn=2 |
 | MDR HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/241816397?ticket=D4C9F5685A9634CE91E7B7B2F13379F54D8375E9&profile=pass | N/A | 1 | max-conn=2 |
-| Mega | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1708340797?ticket=BE0D48CD4FFEF44187B835832F0D6BF85259B074&profile=pass | N/A | 3 | max-conn=2 |
 | MEZZO | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/75684191?ticket=D4D8C279EE87D4251E1F9F73F4559E1945AC350C&profile=pass | N/A | 1 | max-conn=2 |
 | Movistar Plus | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/914447306?ticket=4C059506224A2DA825007DFA2E6B07070B608EFA&profile=pass | N/A | 2 | max-conn=2 |
 | MTV ESPA¹A | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/266431694?ticket=1A6137A3BB95F50C7E1B2E7DFE6777DC80C38ADC&profile=pass | N/A | 1 | max-conn=2 |
@@ -137,11 +186,9 @@
 | NAIZ irratia | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/881143964?ticket=38B7508243140CAD5E2FC1BCAF78F415A1475DE4&profile=pass | N/A | 1 | max-conn=2 |
 | NAT GEO WILD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/462540161?ticket=AA12CDEFAD4D1E210229492768A73E8F81EBCB1E&profile=pass | N/A | 1 | max-conn=2 |
 | NAT GEOGRAPH | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1631362542?ticket=6708398C51B07240EA0F53BA3E798AC2A8A87F30&profile=pass | N/A | 1 | max-conn=2 |
-| Neox | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1343189560?ticket=37CFF38987B92A04457F1F7DD3E2F924A91170E9&profile=pass | N/A | 3 | max-conn=2 |
 | NHK WORLD-JPN | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1285319935?ticket=6BF53762709D0B4C5932EE9A627F0758787528FF&profile=pass | N/A | 1 | max-conn=2 |
 | NICK JR | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/872308474?ticket=59716A8348C2BCE33AE59CB62476C34AEEFAB16B&profile=pass | N/A | 1 | max-conn=2 |
 | NICKELODEON | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/634354575?ticket=DC2BD15637D1FF7DFB8346D0EBC53EA50587CAEC&profile=pass | N/A | 1 | max-conn=2 |
-| Nova | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/455871614?ticket=D731F015E5A073ECC16CA56A849ECAE36F129B27&profile=pass | N/A | 3 | max-conn=2 |
 | PORTADA | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1024737455?ticket=24B67948A2C2C3A0F87075FF19147D8F78E61302&profile=pass | N/A | 1 | max-conn=2 |
 | Radio Maryja | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1551782066?ticket=52F5B657E0BE48A8084D48143A3A2B86F67017FE&profile=pass | N/A | 2 | max-conn=2 |
 | SACHSEN EINS | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1360554580?ticket=EFD8FA717301FF022FF882375858C98A98D8E66E&profile=pass | N/A | 1 | max-conn=2 |
@@ -150,7 +197,6 @@
 | STAR Channel | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1129449649?ticket=7E7E18F7208B4997DE0BB05F353A1C397BD49035&profile=pass | N/A | 1 | max-conn=2 |
 | SYFY | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1937901774?ticket=E9ADCB9462763509F47EA4AB97F03976279876B8&profile=pass | N/A | 1 | max-conn=2 |
 | TCM | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1637843559?ticket=5029F5455E0A66778EFE3571700BE121CEA9B032&profile=pass | N/A | 1 | max-conn=2 |
-| TELECINCO | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/731026221?ticket=55DB498C6876F641157FFFAFAD8D8EFD692580C8&profile=pass | N/A | 3 | max-conn=2 |
 | TELEDEPORTE | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/984709524?ticket=EFB00A3AB891E266E39D8A82E3548108A393B183&profile=pass | N/A | 2 | max-conn=2 |
 | Telesur English | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/301414824?ticket=790EE56D6738E6096E2F86DC04F4A2619EFD5715&profile=pass | N/A | 1 | max-conn=2 |
 | Telesur HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1201565087?ticket=08EB87A1F599E427877A3D37CFD6880F6154D823&profile=pass | N/A | 1 | max-conn=2 |
@@ -163,40 +209,20 @@
 | TEST_CSD5 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/649028214?ticket=EFD4F5A8812B4B17B0BB66645F582ED1049C4C54&profile=pass | N/A | 1 | max-conn=2 |
 | TJ | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1576440379?ticket=9CB84C03D18DCAE4BF4F4B7013A4E8FC622EC4DA&profile=pass | N/A | 1 | max-conn=2 |
 | TPA Asturias HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/511897?ticket=222BFAAFBF6B5686E15D4BC44D3BA4EAEC2A1FE8&profile=pass | N/A | 1 | max-conn=2 |
-| TRECE | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1609047934?ticket=EDFFF28B69FFADD4B8251D3BFE52165C5CB4E813&profile=pass | N/A | 3 | max-conn=2 |
 | TRT WORLD HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/803339499?ticket=31CAE235A0297AC0713311767EEB44E7A8ED805F&profile=pass | N/A | 1 | max-conn=2 |
 | TV Trwam | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/186714474?ticket=33FD9256B741E7C196DDECA82EA415841A1F1304&profile=pass | N/A | 1 | max-conn=2 |
 | TV-3 Cataluna HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/546436787?ticket=0C3F120A39D8EC156AABCEE35D02444C4EB89C6D&profile=pass | N/A | 2 | max-conn=2 |
 | TV5 MONDE EUROPE HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1410210587?ticket=8710942A7DADEDE47412EE8B93B78B244D90437A&profile=pass | N/A | 1 | max-conn=2 |
 | WARNERTV | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1884793073?ticket=6E0886AC0D71DF017FB29B6FFB9DAACDFC1B706B&profile=pass | N/A | 1 | max-conn=2 |
 | ZDFinfo HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1679958857?ticket=7F25F4F736F86FC51BCD52BC4B1BFE838AC3CA70&profile=pass | N/A | 1 | max-conn=2 |
-| 24h HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1676964103?profile=pass | N/A | 2 | max-conn=2 |
 | A Punt FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/489602337?profile=pass | N/A | 1 | max-conn=2 |
 | A Punt HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/751904196?profile=pass | N/A | 1 | max-conn=2 |
-| BOM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1185242999?profile=pass | N/A | 2 | max-conn=2 |
-| BOM RADIO | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1490609544?profile=pass | N/A | 1 | max-conn=2 |
-| CADENA 100 | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/96411859?profile=pass | N/A | 1 | max-conn=2 |
-| COPE | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/831015382?profile=pass | N/A | 1 | max-conn=2 |
-| DMAX | ✅ OK | http://80.30.178.6:9981/stream/channelid/1325525426?ticket=ADBBDF7DC52C14672A82A5EBA9F273482F2057D8&profile=pass | 0.402s | 2 | max-conn=2 |
-| EUROPA FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/394698846?profile=pass | N/A | 1 | max-conn=2 |
 | La 8 Mediterraneo HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1757567788?profile=pass | N/A | 1 | max-conn=2 |
-| Melodia FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1278862633?profile=pass | N/A | 1 | max-conn=2 |
-| ONDA CERO | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1938543091?profile=pass | N/A | 1 | max-conn=2 |
-| Radio 5 RNE | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1964963070?profile=pass | N/A | 1 | max-conn=2 |
-| RADIO MARCA | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/917660150?profile=pass | N/A | 1 | max-conn=2 |
-| RADIO MARIA | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1411327385?profile=pass | N/A | 1 | max-conn=2 |
 | RNE Valencia | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1142046740?profile=pass | N/A | 1 | max-conn=2 |
-| Rock FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/857012482?profile=pass | N/A | 1 | max-conn=2 |
 | Ràdio 4 RNE | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1883729431?profile=pass | N/A | 1 | max-conn=2 |
-| SQUIRREL | ✅ OK | http://80.30.178.6:9981/stream/channelid/1936561556?ticket=AA2526F6F1B34C287BAAE190DEFE1C5D4F310DB6&profile=pass | 0.328s | 2 | max-conn=2 |
-| SQUIRREL2 | ✅ OK | http://80.30.178.6:9981/stream/channelid/2110551869?ticket=C3040E5BEE05995A5D0E15B9B7A343C012EDD40A&profile=pass | 0.365s | 2 | max-conn=2 |
-| tdp HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1882385423?profile=pass | N/A | 2 | max-conn=2 |
-| VEO 7 | ✅ OK | http://80.30.178.6:9981/stream/channelid/1318322603?ticket=1C299EE3D0094CB6BD8DD9C02625A888F57DE337&profile=pass | 0.340s | 2 | max-conn=2 |
 | 7TV CORDOBA | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/832901570?ticket=0975DC310D669C509B9CCB95A20EBE6ABD17BC6D&profile=pass | N/A | 1 | max-conn=2 |
 | A3Series | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/299281948?ticket=AE1930188ADB1705F685DE9C8F00224CC71E892C&profile=pass | N/A | 1 | max-conn=2 |
 | AndaluciaTV | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/2126779221?ticket=CFD86FACA4F07BBAF16BA3BA7CBAE07285E8D18A&profile=pass | N/A | 1 | max-conn=2 |
-| BeMad tv HD | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/277946250?ticket=750573A4197C8D83B78AF1D4BD8C72F4E9745BBB&profile=pass | N/A | 1 | max-conn=2 |
 | CanalSur2 | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1145433560?ticket=6B094DD795C1FA48A9C958F8FEF61123C7D65A7F&profile=pass | N/A | 1 | max-conn=2 |
 | CanalSurHD | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1125717244?ticket=8A29E5129B38FB92824B7D775FF1E82C6712DF8A&profile=pass | N/A | 1 | max-conn=2 |
-| TEN | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1723554525?ticket=21815FFF0CC73AE92C0E79D1AA01A8EF67AA3CD7&profile=pass | N/A | 1 | max-conn=2 |
 | TVM | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/495728173?ticket=4D6CD48BA3D1C49E32FAFE4F83BAC36BD3B29AAD&profile=pass | N/A | 1 | max-conn=2 |
