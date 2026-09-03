@@ -2,37 +2,69 @@
 
 | Canal | Estado | Mejor URL | Latencia | Candidatos | Límite conn. |
 | --- | --- | --- | --- | --- | --- |
-| 24h HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.4:1234 | 0.210s | 3 | sin límite |
-| 7TV CORDOBA | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/832901570?ticket=0975DC310D669C509B9CCB95A20EBE6ABD17BC6D&profile=pass | N/A | 1 | max-conn=2 |
-| A3Series | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/299281948?ticket=AE1930188ADB1705F685DE9C8F00224CC71E892C&profile=pass | N/A | 1 | max-conn=2 |
-| AndaluciaTV | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/2126779221?ticket=CFD86FACA4F07BBAF16BA3BA7CBAE07285E8D18A&profile=pass | N/A | 1 | max-conn=2 |
-| Antena 3 | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.14:1234 | 0.208s | 7 | sin límite |
-| BeMad tv HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.36:1234 | 0.224s | 2 | sin límite |
-| Boing | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.50:1234 | 0.224s | 5 | sin límite |
-| BOM | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.4:1234 | 0.214s | 3 | sin límite |
-| CanalSur2 | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1145433560?ticket=6B094DD795C1FA48A9C958F8FEF61123C7D65A7F&profile=pass | N/A | 1 | max-conn=2 |
-| CanalSurHD | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1125717244?ticket=8A29E5129B38FB92824B7D775FF1E82C6712DF8A&profile=pass | N/A | 1 | max-conn=2 |
-| Clan HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.21:1234 | 0.222s | 3 | sin límite |
-| Cuatro HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.20:1234 | 0.208s | 6 | sin límite |
-| Divinity | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.18:1234 | 0.216s | 4 | sin límite |
-| DKISS | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.28:1234 | 0.214s | 3 | sin límite |
-| DMAX | ✅ OK | http://79.116.29.121:8069/udp/239.250.3.3:1234 | 0.206s | 4 | sin límite |
-| Energy | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.49:1234 | 0.225s | 5 | sin límite |
-| FDF | ✅ OK | http://79.116.29.121:8069/udp/239.250.5.3:1234 | 0.208s | 4 | sin límite |
-| La 1 HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.5:1234 | 0.206s | 6 | sin límite |
-| La 2 HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.77:1234 | 0.211s | 8 | sin límite |
-| laSexta | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.11:1234 | 0.207s | 7 | sin límite |
-| MEGA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.42:1234 | 0.213s | 4 | sin límite |
-| neox | ✅ OK | http://79.116.29.121:8069/udp/239.250.4.3:1234 | 0.209s | 5 | sin límite |
-| nova | ✅ OK | http://79.116.29.121:8069/udp/239.250.4.4:1234 | 0.207s | 5 | sin límite |
-| SQUIRREL | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.82:1234 | 0.228s | 3 | sin límite |
-| SQUIRREL2 | ✅ OK | http://79.116.29.121:8069/udp/239.250.3.2:1234 | 0.210s | 3 | sin límite |
-| tdp HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.23:1234 | 0.214s | 5 | sin límite |
-| Telecinco HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.19:1234 | 0.212s | 6 | sin límite |
-| TEN | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.38:1234 | 0.221s | 2 | sin límite |
-| TRECE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.60:1234 | 0.208s | 5 | sin límite |
-| TVM | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/495728173?ticket=4D6CD48BA3D1C49E32FAFE4F83BAC36BD3B29AAD&profile=pass | N/A | 1 | max-conn=2 |
-| VEO 7 | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.57:1234 | 0.206s | 4 | sin límite |
+| 24h HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.4:1234 | 0.165s | 3 | sin límite |
+| 8madrid TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.59:1234 | 0.165s | 1 | sin límite |
+| Antena 3 | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.25:1234 | 0.161s | 7 | sin límite |
+| BOM | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.4:1234 | 0.166s | 3 | sin límite |
+| BOM RADIO | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.58:1234 | 0.162s | 2 | sin límite |
+| BeMad tv HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.36:1234 | 0.165s | 2 | sin límite |
+| Boing | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.50:1234 | 0.162s | 5 | sin límite |
+| CADENA 100 | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.81:1234 | 0.159s | 3 | sin límite |
+| COPE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.47:1234 | 0.174s | 2 | sin límite |
+| COPE MAS | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.63:1234 | 0.162s | 1 | sin límite |
+| Clan HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.21:1234 | 0.166s | 3 | sin límite |
+| Cuatro HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.20:1234 | 0.163s | 6 | sin límite |
+| DIAL | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.34:1234 | 0.166s | 1 | sin límite |
+| DKISS | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.28:1234 | 0.173s | 3 | sin límite |
+| DMAX | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.53:1234 | 0.163s | 4 | sin límite |
+| Disney Channel | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.51:1234 | 0.164s | 2 | sin límite |
+| Divinity | ✅ OK | http://79.116.29.121:8069/udp/239.250.5.4:1234 | 0.163s | 4 | sin límite |
+| Déjate TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.68:1234 | 0.166s | 1 | sin límite |
+| EL Toro TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.61:1234 | 0.163s | 1 | sin límite |
+| EUROPA FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.44:1234 | 0.165s | 2 | sin límite |
+| Energy | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.49:1234 | 0.164s | 5 | sin límite |
+| FDF | ✅ OK | http://79.116.29.121:8069/udp/239.250.5.3:1234 | 0.167s | 4 | sin límite |
+| GOL PLAY HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.54:1234 | 0.165s | 1 | sin límite |
+| HIT FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.66:1234 | 0.161s | 2 | sin límite |
+| HIT TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.62:1234 | 0.165s | 1 | sin límite |
+| Kiss FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.65:1234 | 0.164s | 2 | sin límite |
+| LA OTRA HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.53:1234 | 0.168s | 1 | sin límite |
+| LOS40 | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.33:1234 | 0.165s | 1 | sin límite |
+| LOS40 Classic | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.39:1234 | 0.162s | 1 | sin límite |
+| LOS40 Urban | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.40:1234 | 0.165s | 1 | sin límite |
+| La 1 HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.5:1234 | 0.163s | 6 | sin límite |
+| La 2 HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.8:1234 | 0.162s | 8 | sin límite |
+| MELODIA FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.45:1234 | 0.166s | 2 | sin límite |
+| MegaStar | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.64:1234 | 0.162s | 1 | sin límite |
+| ONDA CERO | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.43:1234 | 0.161s | 2 | sin límite |
+| ONDA MADRID | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.5:1234 | 0.163s | 1 | sin límite |
+| PARAMOUNT NETWORK | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.52:1234 | 0.164s | 1 | sin límite |
+| RADIO MARCA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.55:1234 | 0.164s | 2 | sin límite |
+| RADIO MARIA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.57:1234 | 0.165s | 2 | sin límite |
+| Radio 5 RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.7:1234 | 0.163s | 2 | sin límite |
+| Radio Clasica HQ RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.25:1234 | 0.160s | 1 | sin límite |
+| Radio Exterior RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.27:1234 | 0.160s | 1 | sin límite |
+| Radio Nacional de España | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.74:1234 | 0.160s | 2 | sin límite |
+| Radio3 HQ RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.26:1234 | 0.163s | 1 | sin límite |
+| Radiolé | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.41:1234 | 0.165s | 1 | sin límite |
+| Realmadrid TV HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.37:1234 | 0.161s | 1 | sin límite |
+| Rock FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.48:1234 | 0.163s | 2 | sin límite |
+| SER | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.32:1234 | 0.166s | 1 | sin límite |
+| SQUIRREL | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.82:1234 | 0.164s | 3 | sin límite |
+| SQUIRREL2 | ✅ OK | http://79.116.29.121:8069/udp/239.250.3.2:1234 | 0.164s | 3 | sin límite |
+| TEN | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.38:1234 | 0.161s | 2 | sin límite |
+| TRECE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.46:1234 | 0.165s | 5 | sin límite |
+| Telecinco HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.47:1234 | 0.162s | 6 | sin límite |
+| Telemadrid HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.19:1234 | 0.162s | 3 | sin límite |
+| Telemadrid HDR | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.2:1234 | 0.165s | 1 | sin límite |
+| VEO 7 | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.57:1234 | 0.162s | 4 | sin límite |
+| atreseries HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.35:1234 | 0.165s | 2 | sin límite |
+| esRadio | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.31:1234 | 0.165s | 1 | sin límite |
+| laSexta | ✅ OK | http://79.116.29.121:8069/udp/239.250.4.2:1234 | 0.164s | 7 | sin límite |
+| mega HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.42:1234 | 0.162s | 4 | sin límite |
+| neox | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.13:1234 | 0.164s | 5 | sin límite |
+| nova | ✅ OK | http://79.116.29.121:8069/udp/239.250.4.4:1234 | 0.167s | 5 | sin límite |
+| tdp HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.3:1234 | 0.162s | 5 | sin límite |
 | 1“ FEDERACION | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/109956388?ticket=910902D3BDAE87A62913350FB5FB6AB0C1CD8BF7&profile=pass | N/A | 5 | max-conn=2 |
 | 24 HORAS | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/336811127?ticket=72D541581EBDAC85852A7C2675F1828A951BF168&profile=pass | N/A | 1 | max-conn=2 |
 | 3sat HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1945392337?ticket=0657D1430AD17474B5520FB2489CA87581F5018C&profile=pass | N/A | 1 | max-conn=2 |
@@ -53,7 +85,6 @@
 | ASTRA/10847V/{PMT:1093} | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/674211185?ticket=85027F8489223C53BCBD5C473B56D6B8EEB9BB2E&profile=pass | N/A | 1 | max-conn=2 |
 | ASTRA/10847V/{PMT:1097} | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2062335500?ticket=A23CB22C18845DB0435D627B24F6196201BCDF1A&profile=pass | N/A | 1 | max-conn=2 |
 | ASTRA/10847V/{PMT:1098} | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/365687184?ticket=D96F364FFE15F3147B7FF80D2A96D7E16C9CA0CC&profile=pass | N/A | 1 | max-conn=2 |
-| Atreseries | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.35:1234 | 0.217s | 2 | sin límite |
 | AXN | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1242766646?ticket=3F1265996630BEB268B6C2167AD9C4B91E5BCE4D&profile=pass | N/A | 1 | max-conn=2 |
 | AXN MOVIES | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/316420654?ticket=2615505FE19417CCF41FD8F23D0141EFCE969E67&profile=pass | N/A | 1 | max-conn=2 |
 | BabyTV | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/814037620?ticket=C6C22C0899C15C4F5D50E741679D42C1918A79C1&profile=pass | N/A | 1 | max-conn=2 |
@@ -90,7 +121,6 @@
 | DAZNBaloncesto3 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/2122863514?ticket=E6A2B1BD7C9AAD64F9AC0DA7D55D94D3DB0124E3&profile=pass | N/A | 1 | max-conn=2 |
 | Die Neue Zeit TV | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1114432415?ticket=6DF2BF27B2B80C1C225157A9921ACB3298E6C657&profile=pass | N/A | 1 | max-conn=2 |
 | DISCOVERY | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1213878161?ticket=2A29D15B530B20E1A6039B2CC57872342B2A0CFF&profile=pass | N/A | 1 | max-conn=2 |
-| Disney Channel | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.51:1234 | 0.215s | 2 | sin límite |
 | DreamWorks | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/707695333?ticket=1AB2BD360AEB204A13CEE97854C8820B259C7370&profile=pass | N/A | 1 | max-conn=2 |
 | EURONEWS GERMAN SD PAL | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1853308614?ticket=D0914C6F45206515FDA0F83BDEE08ED5B2A3D723&profile=pass | N/A | 1 | max-conn=2 |
 | EUROSPORT 1 | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1823292832?ticket=4063BDE4F6A611C79485064F578C47D6D8E08E00&profile=pass | N/A | 1 | max-conn=2 |
@@ -187,42 +217,12 @@
 | ZDFinfo HD | ❌ DOWN | http://89.35.227.169:9981/stream/channelid/1679958857?ticket=7F25F4F736F86FC51BCD52BC4B1BFE838AC3CA70&profile=pass | N/A | 1 | max-conn=2 |
 | A Punt FM | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/489602337?profile=pass | N/A | 1 | max-conn=2 |
 | A Punt HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/751904196?profile=pass | N/A | 1 | max-conn=2 |
-| BOM RADIO | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.58:1234 | 0.220s | 2 | sin límite |
-| CADENA 100 | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.56:1234 | 0.212s | 3 | sin límite |
-| COPE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.47:1234 | 0.210s | 2 | sin límite |
-| EUROPA FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.44:1234 | 0.212s | 2 | sin límite |
 | La 8 Mediterraneo HD | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1757567788?profile=pass | N/A | 1 | max-conn=2 |
-| Melodia FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.45:1234 | 0.221s | 2 | sin límite |
-| ONDA CERO | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.43:1234 | 0.213s | 2 | sin límite |
-| Radio 5 RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.7:1234 | 0.207s | 2 | sin límite |
-| RADIO MARCA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.55:1234 | 0.210s | 2 | sin límite |
-| RADIO MARIA | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.57:1234 | 0.223s | 2 | sin límite |
 | RNE Valencia | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1142046740?profile=pass | N/A | 1 | max-conn=2 |
-| Rock FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.48:1234 | 0.221s | 2 | sin límite |
 | Ràdio 4 RNE | ❌ DOWN | http://79.116.204.96:9981/stream/channelid/1883729431?profile=pass | N/A | 1 | max-conn=2 |
-| 8madrid TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.59:1234 | 0.208s | 1 | sin límite |
-| COPE MAS | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.63:1234 | 0.216s | 1 | sin límite |
-| DIAL | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.34:1234 | 0.221s | 1 | sin límite |
-| Déjate TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.68:1234 | 0.209s | 1 | sin límite |
-| EL Toro TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.61:1234 | 0.212s | 1 | sin límite |
-| GOL PLAY HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.54:1234 | 0.207s | 1 | sin límite |
-| HIT FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.30:1234 | 0.208s | 2 | sin límite |
-| HIT TV | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.62:1234 | 0.235s | 1 | sin límite |
-| Kiss FM | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.65:1234 | 0.208s | 2 | sin límite |
-| LA OTRA HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.53:1234 | 0.213s | 1 | sin límite |
-| LOS40 | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.33:1234 | 0.211s | 1 | sin límite |
-| LOS40 Classic | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.39:1234 | 0.214s | 1 | sin límite |
-| LOS40 Urban | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.40:1234 | 0.221s | 1 | sin límite |
-| MegaStar | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.64:1234 | 0.220s | 1 | sin límite |
-| ONDA MADRID | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.5:1234 | 0.235s | 1 | sin límite |
-| PARAMOUNT NETWORK | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.52:1234 | 0.206s | 1 | sin límite |
-| Radio Clasica HQ RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.25:1234 | 0.217s | 1 | sin límite |
-| Radio Exterior RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.27:1234 | 0.227s | 1 | sin límite |
-| Radio Nacional de España | ✅ OK | http://79.116.29.121:8069/udp/239.255.4.74:1234 | 0.223s | 2 | sin límite |
-| Radio3 HQ RNE | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.26:1234 | 0.214s | 1 | sin límite |
-| Radiolé | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.41:1234 | 0.221s | 1 | sin límite |
-| Realmadrid TV HD | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.37:1234 | 0.226s | 1 | sin límite |
-| SER | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.32:1234 | 0.213s | 1 | sin límite |
-| Telemadrid HD | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.1:1234 | 0.207s | 3 | sin límite |
-| Telemadrid HDR | ✅ OK | http://79.116.29.121:8069/udp/239.255.3.2:1234 | 0.209s | 1 | sin límite |
-| esRadio | ✅ OK | http://79.116.29.121:8069/udp/239.10.20.31:1234 | 0.219s | 1 | sin límite |
+| 7TV CORDOBA | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/832901570?ticket=0975DC310D669C509B9CCB95A20EBE6ABD17BC6D&profile=pass | N/A | 1 | max-conn=2 |
+| A3Series | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/299281948?ticket=AE1930188ADB1705F685DE9C8F00224CC71E892C&profile=pass | N/A | 1 | max-conn=2 |
+| AndaluciaTV | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/2126779221?ticket=CFD86FACA4F07BBAF16BA3BA7CBAE07285E8D18A&profile=pass | N/A | 1 | max-conn=2 |
+| CanalSur2 | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1145433560?ticket=6B094DD795C1FA48A9C958F8FEF61123C7D65A7F&profile=pass | N/A | 1 | max-conn=2 |
+| CanalSurHD | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/1125717244?ticket=8A29E5129B38FB92824B7D775FF1E82C6712DF8A&profile=pass | N/A | 1 | max-conn=2 |
+| TVM | ❌ DOWN | http://80.30.178.6:9981/stream/channelid/495728173?ticket=4D6CD48BA3D1C49E32FAFE4F83BAC36BD3B29AAD&profile=pass | N/A | 1 | max-conn=2 |
