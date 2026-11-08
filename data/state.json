@@ -33914,11 +33914,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.4:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22507548332214355
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.20518755912780762
@@ -33962,18 +33957,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17035150527954102
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1794908046722412
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.59:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2190074920654297
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34018,18 +34013,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.18523144721984863
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1802048683166504
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.4.1:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22506976127624512
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34074,18 +34069,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17142009735107422
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1803758144378662
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.14:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2349863052368164
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34130,18 +34125,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17167186737060547
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18348407745361328
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.25:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22022628784179688
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34186,18 +34181,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1686420440673828
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18140101432800293
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.9:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23290395736694336
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34242,18 +34237,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17273592948913574
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18280649185180664
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.3.4:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22674226760864258
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34298,10 +34293,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17221832275390625
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18038010597229004
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.58:1234": {
         "history": [
@@ -34362,11 +34362,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.36:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22510361671447754
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.20351314544677734
@@ -34410,18 +34405,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1716296672821045
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.2086169719696045
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.50:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23612523078918457
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34466,10 +34461,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17228984832763672
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1815319061279297
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.56:1234": {
         "history": [
@@ -34698,11 +34698,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.21:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2256791591644287
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.20345449447631836
@@ -34746,18 +34741,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17767620086669922
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1782841682434082
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.20:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22703933715820312
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34802,18 +34797,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1818239688873291
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1978917121887207
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.5.2:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23275041580200195
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34858,18 +34853,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17679667472839355
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19110441207885742
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.49:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.21997785568237305
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -34914,10 +34909,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17317867279052734
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.20401692390441895
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.34:1234": {
         "history": [
@@ -34978,11 +34978,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.28:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22305035591125488
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.22500824928283691
@@ -35026,18 +35021,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17406320571899414
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19501376152038574
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.53:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2400674819946289
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35082,18 +35077,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17582201957702637
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19266510009765625
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.3.3:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2205195426940918
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35138,18 +35133,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17222046852111816
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19679784774780273
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.51:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2265021800994873
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35194,18 +35189,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17316341400146484
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.20028901100158691
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.18:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2254176139831543
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35250,18 +35245,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17473721504211426
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18351435661315918
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.5.4:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2378098964691162
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35306,18 +35301,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17476534843444824
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18006467819213867
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.68:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2338728904724121
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35362,18 +35357,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17681121826171875
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.47458600997924805
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.61:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22537732124328613
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35418,10 +35413,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17620563507080078
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18416571617126465
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.44:1234": {
         "history": [
@@ -35482,11 +35482,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.49:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22608256340026855
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.20583605766296387
@@ -35530,18 +35525,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1728827953338623
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19782733917236328
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.17:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22553563117980957
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35586,18 +35581,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1794283390045166
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18526625633239746
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.5.3:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2393198013305664
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35642,18 +35637,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17548036575317383
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18035054206848145
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.54:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22473549842834473
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -35698,10 +35693,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1744368076324463
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18306803703308105
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.30:1234": {
         "history": [
@@ -35818,11 +35818,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.62:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23518800735473633
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.2193446159362793
@@ -35866,10 +35861,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.18721413612365723
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.2000751495361328
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.29:1234": {
         "history": [
@@ -35986,11 +35986,6 @@
     "http://79.116.29.121:8069/udp/239.255.4.53:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2305622100830078
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.22489356994628906
@@ -36034,10 +36029,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17912673950195312
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19192743301391602
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.33:1234": {
         "history": [
@@ -36210,11 +36210,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.1:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22545337677001953
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.20454978942871094
@@ -36258,18 +36253,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17603778839111328
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19417357444763184
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.5:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23805475234985352
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -36314,18 +36309,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1785111427307129
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1868610382080078
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.4:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22095060348510742
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -36370,18 +36365,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1782238483428955
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1830577850341797
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.8:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22581171989440918
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -36426,18 +36421,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17788934707641602
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1844336986541748
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.2:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22113561630249023
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -36482,18 +36477,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17853116989135742
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19801926612854004
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.6:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23798465728759766
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -36538,18 +36533,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17827939987182617
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1968846321105957
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.77:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23342585563659668
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -36594,10 +36589,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17889714241027832
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1846914291381836
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.45:1234": {
         "history": [
@@ -36826,11 +36826,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.52:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23552346229553223
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.2301340103149414
@@ -36874,10 +36869,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17908525466918945
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1819314956665039
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.55:1234": {
         "history": [
@@ -37386,11 +37386,6 @@
     "http://79.116.29.121:8069/udp/239.10.20.37:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22448468208312988
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.21946263313293457
@@ -37434,10 +37429,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.18626165390014648
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1862196922302246
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.48:1234": {
         "history": [
@@ -37554,11 +37554,6 @@
     "http://79.116.29.121:8069/udp/239.255.4.82:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22734475135803223
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.20363140106201172
@@ -37602,18 +37597,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17379188537597656
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1784346103668213
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.3.2:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23754525184631348
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37658,18 +37653,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17743659019470215
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18379759788513184
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.38:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2391958236694336
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37714,18 +37709,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1793663501739502
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.192673921585083
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.46:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22530388832092285
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37770,18 +37765,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.18413448333740234
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18738079071044922
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.60:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2375645637512207
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37826,18 +37821,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17896437644958496
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18757033348083496
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.19:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2248077392578125
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37882,18 +37877,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.4621622562408447
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19162416458129883
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.5.1:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2383747100830078
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37938,18 +37933,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17867612838745117
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1929023265838623
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.47:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.21970486640930176
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -37994,18 +37989,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.45473337173461914
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1937704086303711
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.3.1:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22540807723999023
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38050,18 +38045,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.45467042922973633
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18953967094421387
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.19:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23061037063598633
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38106,18 +38101,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1835942268371582
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18859195709228516
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.76:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22463512420654297
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38162,18 +38157,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.45395946502685547
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.187485933303833
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.3.2:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2389826774597168
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38218,18 +38213,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17968463897705078
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1885662078857422
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.57:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22439789772033691
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38274,18 +38269,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17664575576782227
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.19799184799194336
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.3.4:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23746943473815918
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38330,18 +38325,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1776409149169922
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1843430995941162
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.35:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22593903541564941
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38386,10 +38381,15 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17022228240966797
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17787837982177734
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.31:1234": {
         "history": [
@@ -38450,11 +38450,6 @@
     "http://79.116.29.121:8069/udp/239.250.4.6:1234": {
         "history": [
             {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2279052734375
-            },
-            {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
                 "latency": 0.21784591674804688
@@ -38498,18 +38493,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1712193489074707
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1803908348083496
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.250.4.2:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23862004280090332
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38554,18 +38549,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.18227338790893555
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17780613899230957
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.18:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2298872470855713
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38610,18 +38605,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17198991775512695
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18005681037902832
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.11:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23337650299072266
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38666,18 +38661,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17749738693237305
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17722272872924805
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.42:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22549176216125488
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38722,18 +38717,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1750338077545166
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.1800830364227295
             }
         ],
         "fail_count": 2,
-        "success_count": 410
+        "success_count": 411
     },
     "http://79.116.29.121:8069/udp/239.10.20.13:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22554922103881836
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38778,18 +38773,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17071890830993652
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17980170249938965
             }
         ],
         "fail_count": 2,
-        "success_count": 410
+        "success_count": 411
     },
     "http://79.116.29.121:8069/udp/239.250.4.3:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.23835968971252441
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38834,18 +38829,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17901253700256348
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17937755584716797
             }
         ],
         "fail_count": 2,
-        "success_count": 410
+        "success_count": 411
     },
     "http://79.116.29.121:8069/udp/239.10.20.14:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22678375244140625
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38890,18 +38885,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17383527755737305
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18099546432495117
             }
         ],
         "fail_count": 2,
-        "success_count": 410
+        "success_count": 411
     },
     "http://79.116.29.121:8069/udp/239.250.4.4:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.24032139778137207
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -38946,18 +38941,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.17434048652648926
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17888784408569336
             }
         ],
         "fail_count": 2,
-        "success_count": 410
+        "success_count": 411
     },
     "http://79.116.29.121:8069/udp/239.10.20.3:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.22144651412963867
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -39002,18 +38997,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.18076705932617188
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18114852905273438
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.10.20.23:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2303755283355713
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -39058,18 +39053,18 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1738119125366211
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.18003511428833008
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     },
     "http://79.116.29.121:8069/udp/239.255.4.78:1234": {
         "history": [
-            {
-                "timestamp": "2026-11-06 10:46:50",
-                "available": true,
-                "latency": 0.2257232666015625
-            },
             {
                 "timestamp": "2026-11-06 17:58:29",
                 "available": true,
@@ -39114,9 +39109,14 @@
                 "timestamp": "2026-11-08 15:57:50",
                 "available": true,
                 "latency": 0.1758129596710205
+            },
+            {
+                "timestamp": "2026-11-08 20:20:33",
+                "available": true,
+                "latency": 0.17867326736450195
             }
         ],
         "fail_count": 1,
-        "success_count": 411
+        "success_count": 412
     }
 }
