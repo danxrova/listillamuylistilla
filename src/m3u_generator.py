@@ -19,7 +19,7 @@ class M3UGenerator:
             "la 2 uhd",
             "la 2",
             "la 2 / 2cat",
-            "antena 3 uhd",
+            "a3 uhd",
             "antena 3",
             "cuatro",
             "telecinco uhd",
