@@ -25,6 +25,7 @@ class M3UGenerator:
             "telecinco uhd",
             "telecinco",
             "lasexta",
+            "la septima",
             "neox",
             "nova",
             "mega",
